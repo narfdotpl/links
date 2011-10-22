@@ -1,0 +1,30 @@
+<div class="row link">
+    <div class="row">
+        {# title #}
+        <div class="col">
+            <a href="{{ link.link }}">{{ link.title }}</a>
+        </div>
+
+        {# tags #}
+        <div class="col tags">
+            {% for tag in link.tags %}
+                {% if tag.name != current_tag_name %}
+                    <a href="{{ tag.url }}" class="js-pjax">
+                        {% if tag.name == '_post' %}
+                            #
+                        {% else %}
+                            {{ tag.name }}
+                        {% endif %}
+                    </a>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+
+    {# desc #}
+    {% if link.desc %}
+        <div class="row">
+            {{ link.desc }}
+        </div>
+    {% endif %}
+</div>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta content="text/html;charset=utf-8" http-equiv="content-type" />
+        <!--
+            for actual code, visit
+            https://github.com/narfdotpl/ln
+        -->
+        <title>ln</title>
+    </head>
+    <body>
+        <div class="row">
+            <div class="col">
+                <a href="/">home</a>
+            </div>
+            <div class="col" id="content">
+                {{ inner }}
+            </div>
+        </div>
+
+        {% if debug %}
+            <script src="/static/jquery.min.js"></script>
+        {% else %}
+            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+        {% endif %}
+        <script src="/static/jquery.pjax.min.js"></script>
+        <script>
+            $('a.js-pjax').pjax('#content')
+        </script>
+    </body>
+</html>

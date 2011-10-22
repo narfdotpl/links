@@ -1,0 +1,16 @@
+<div class="row" id="header">
+    <h1>tags</h1>
+</div>
+
+<table>
+    {% for tag in tags %}
+        <tr>
+            <td>{{ tag.count }}</td>
+            <td>
+                <a href="/tags/{{ tag.name }}" class="js-pjax">
+                    {{ tag.name }}
+                </a>
+            </td>
+        </tr>
+    {% endfor %}
+</table>
