@@ -1,0 +1,37 @@
+- title:  Moon
+  link:   http://en.wikipedia.org/wiki/Moon_(film)
+  tags:   [film]
+  desc:   |
+          "Sam, I can only account for what occurs on this base."
+
+- title:  Primer
+  link:   http://en.wikipedia.org/wiki/Primer_(film)
+  tags:   [film]
+  desc:   |
+          "What's worse, thinking your being paranoid or knowing you
+           should be?"
+
+- title:  Making Crash Bandicoot
+  link:   http://all-things-andy-gavin.com/2011/02/02/making-crash-bandicoot-part-1/
+  tags:   [gamedev, lisp, reading]
+  desc:   And hey, they coded it in Lisp!
+
+- title:  State-Based Scripting in Uncharted 2
+  link:   http://www.gameenginebook.com/gdc09-statescripting-uncharted2.pdf
+  tags:   [lisp, gamedev]
+  desc:   PDF
+
+- title:  dither.me
+  link:   http://dither.me/
+  tags:   [aesthetics]
+  desc:   1-bit reblogs
+
+- title:  Kern Type
+  link:   http://type.method.ac/
+  tags:   [typo, game]
+  desc:   92/100
+
+- title:  Shape Type
+  link:   http://shape.method.ac/
+  tags:   [typo, game]
+  desc:   83/100

@@ -1,0 +1,58 @@
+- title:  keychain
+  link:   http://github.com/funtoo/keychain
+  tags:   [tool]
+  desc:   |
+          "Manage ssh and GPG keys in a convenient and secure manner. [...]
+           You only need to enter a passphrase once every time your local
+           machine is rebooted."
+
+- title:  local_settings.py Considered Harmful
+  link:   http://blog.bitquabit.com/2009/10/02/local_settingspy-considered-harmful/
+  tags:   [django]
+  desc:   |
+          "With this change, we can now have a file for each machine we
+          intend to deploy on, named after the machine, put into the settings
+          directory, and it'll be used automatically. Now, you've got the best
+          of both worlds: site-specific configuration, managed by source
+          control."
+
+- title:  |
+          Don't Be A Dick: Compiled Flash and You
+  link:   http://kickingbear.com/blog/archives/43
+  tags:   [flash, reading]
+  desc:   |
+          "Programming is an exercise in overcoming how wrong you've been in
+          the past. At first you'll overcome the syntax errors, then you'll
+          overcome the structural errors, and then you'll come to align your
+          code with the standards of a greater community and you'll feel safe
+          and like you've made it. You haven't -- you're still wrong because
+          you're *always* wrong. You are playing a game you cannot win. And
+          let's face it -- if it was a game you *could* win you'd not be
+          playing at all."
+
+- title:  see()
+  link:   http://inky.github.com/see/
+  tags:   [python]
+  desc:   |
+          "An alternative to Python's `dir` function.
+           Easy to type; easy to read! For humans only."
+
+- title:  SOFA - Affairz (feat. OSTR)
+  link:   http://www.youtube.com/watch?v=7cSCpLVP_LQ
+  tags:   [music]
+
+- title:  Matisyahu - Refuge
+  link:   http://www.youtube.com/watch?v=xLJmepsBETw
+  tags:   [music]
+
+- title:  Type Experiments
+  link:   http://www.typographyserved.com/Gallery/Type_Experiments_/189680
+  tags:   [typo, aesthetics]
+
+- title:  BFA Thesis Exhibition Poster
+  link:   http://www.typographyserved.com/Gallery/BFA_Thesis_Exhibition_Poster/333808
+  tags:   [aesthetics]
+
+- title:  Anamorphic Helvetica
+  link:   http://www.typographyserved.com/Gallery/Anamorphic_Helvetica/330746
+  tags:   [typo, aesthetics]

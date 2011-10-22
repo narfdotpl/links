@@ -1,0 +1,47 @@
+- title:  Readability
+  link:   http://www.readability.com/
+  tags:   [tool]
+  desc:   |
+          "Makes reading on the Web more enjoyable."
+
+- title:  Set Your Code Free
+  link:   http://ar.to/2010/01/set-your-code-free
+  tags:   [reading]
+  desc:   |
+          "The moral point being that if you're pirating copyrighted material
+          or clicking through idiotic EULAs without reading them, why on earth
+          are you still slapping a copyright notice on software you yourself
+          write and release?"
+
+- title:  How I Hire Programmers
+  link:   http://www.aaronsw.com/weblog/hiring
+  tags:   [reading]
+  desc:   |
+          "Programming isn't typically a job done under pressure, so seeing
+           how people perform when nervous is pretty useless."
+
+- title:  Sympathy for the Devil
+  link:   http://blogs.adobe.com/jnack/2010/01/sympathy_for_the_devil.html
+  tags:   [flash, reading]
+  desc:   |
+          "Let's be clear: It's fine to say that Flash is flawed; it is. (You
+          know who'd agree? The Flash team.) It's fine to hope for alternatives
+          to take root. (Competition makes everyone better.) But let's also be
+          honest and say that Flash is the reason we all have fast, reliable,
+          ubiquitous online video today."
+
+- title:  Gordon
+  link:   http://github.com/tobeytailor/gordon
+  tags:   [flash]
+  desc:   |
+          "Open source Flash runtime written in pure JavaScript"
+
+- title:  Optimizing Optimizing HTML
+  link:   http://annevankesteren.nl/2010/01/optimizing-html
+  tags:   [else]
+  desc:   |
+          "[...] as you know, HTML5 actually reflects reality."
+
+- title:  C gibberish <-> English
+  link:   http://cdecl.org/
+  tags:   [else]

@@ -1,0 +1,44 @@
+- title:  The State of the End-User Environment
+  link:   http://www.xent.com/pipermail/fork/Week-of-Mon-20091109/054578.html
+  tags:   [hci, reading]
+  desc:   |
+          "If I have to write one more polyglot bash / awk / python script to
+          gather data from log files on a bunch of different machines, demux
+          that into a time-ordered event stream, pipe it through something to
+          munge it into some slightly different format, ship that off via post
+          to some web address and get some JSON back, parse that into some
+          other shit, do some computation over it like aggregation or date math
+          over time stamps with unlike representations, wrap the results up in
+          an HTML table and send that table in a MIME-enabled e-mail to myself
+          I think I am going to *explode.*"
+
+- title:  mag+
+  link:   http://vimeo.com/8217311
+  tags:   [hci, video]
+  desc:   |
+          Conceptual video about the experience of reading magazines on
+          handheld digital devices.
+
+- title:  Semantic Versioning
+  link:   http://semver.org/
+  tags:   [reading]
+  desc:   |
+          > This is not a new or revolutionary idea. In fact, you probably do
+          > something close to this already. The problem is that "close" isn't
+          > good enough."
+
+- title:  Cinnamon Chasers - Luv Deluxe
+  link:   http://www.vimeo.com/6540668
+  tags:   [video]
+
+- title:  Hard to Read Calendar
+  link:   http://www.typographyserved.com/Gallery/Hard_to_Read_Calendar_-_2010/356624
+  tags:   [typo, aesthetics]
+
+- title:  Gestural Writing
+  link:   http://www.typographyserved.com/Gallery/Gestural_Writing/349987
+  tags:   [typo, aesthetics]
+
+- title:  Freeze Tag
+  link:   http://www.vimeo.com/7567271
+  tags:   [video]

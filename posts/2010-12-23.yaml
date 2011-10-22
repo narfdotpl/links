@@ -1,0 +1,31 @@
+- title:  Using a custom object as namespace for eval()
+  link:   http://6.flowsnake.org/custom-namespace.html
+  tags:   [python]
+
+- title:  Efficiently Implementing Python Objects With Maps
+  link:   http://morepypy.blogspot.com/2010/11/efficiently-implementing-python-objects.html
+  tags:   [python]
+  desc:   |
+          "The maps are immutable, immortal and reused as much as possible.
+           This means, that two instances of the same class with the same set
+           of attributes will have the same map. This also means that the
+           memory the map itself uses is not too important, because it will
+           potentially be amortized over many instances."
+
+- title:  Python Import Oddities II
+  link:   http://utcc.utoronto.ca/~cks/space/blog/python/ImportOdditiesII
+  tags:   [python]
+  desc:   |
+          "[...] importing a submodule will actually modify the parent module's
+           namespace. [...] This happens even if you do not get an explicit
+           reference to x, eg if you do `import x.y as t`."
+
+- title:  Unit Testing Guidelines
+  tags:   [python]
+  link:   http://docs.pylonshq.com/community/testing.html
+  desc:   |
+          Ingenious example in "Guideline: Use mock objects ...".
+
+- title:  MySQLdb, Python 2.5 and OS X 10.6
+  link:   https://gist.github.com/728281
+  tags:   [python, db, solution]

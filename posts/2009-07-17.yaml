@@ -1,0 +1,50 @@
+- title:  The Interface of a Cheeseburger
+  link:   http://informationarchitects.jp/the-interface-of-a-cheeseburger/
+  tags:   [hci, reading]
+  desc:   |
+          "Where is the iPod logo? On the back! The interface makes the brand."
+
+- title:  JetReader
+  link:   http://www.jetplanejournal.com/jetreader
+  tags:   [aesthetics]
+  desc:   A great NetNewsWire style I've just switched to.
+  date: 2009-07-09
+
+- title:  mod_python checks your blood pressure
+  link:   http://bradmontgomery.blogspot.com/2009/03/modpython-checks-your-blood-pressure.html
+  tags:   [python]
+  desc:   can miss so many things when afk to make a tea
+
+- title:  iQ font
+  link:   http://ilovetypography.com/2009/07/18/iq-font/
+  tags:   [typo, video]
+  date: 2009-07-17
+
+- title:  Buddy Carr Skateboards
+  link:   http://www.buddycarrskateboards.com/
+  tags:   [aesthetics]
+  desc:   too bad I don't skate
+
+- title:  Graublau Sans with Lucida sanserif
+  link:   http://nicewebtype.com/fonts/graublau-sans-web/
+  tags:   [typo, aesthetics]
+  desc:   |
+          @font-face ftw
+
+- title:  Little Wheel
+  link:   http://fastgames.com/littlewheel.html
+  tags:   [game, aesthetics]
+
+- title:  Mariija
+  link:   http://www.myspace.com/mariija
+  tags:   [music]
+
+- title:  e.gg timer
+  link:   http://e.ggtimer.com/
+  tags:   [tool]
+  desc:   online countdown timer
+
+- title:  Installing psycopg2 on OS X
+  link:   http://blog.jonypawks.net/2008/06/20/installing-psycopg2-on-os-x/
+  tags:   [python, db, solution]
+  desc:   can save you a few hours

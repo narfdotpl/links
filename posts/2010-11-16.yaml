@@ -1,0 +1,50 @@
+- title:  My First Week with the iPhone
+  link:   http://behindthecurtain.us/2010/06/12/my-first-week-with-the-iphone/
+  tags:   [ios, hci, reading]
+  desc:   |
+          "I anticipated a weird and slightly arduous journey, especially
+           when it came to using the keyboard. To my great surprise, I picked
+           it up immediately. Within 30 seconds, I checked the weather. Next,
+           I read some stock prices. Amazingly, it even renders stock charts,
+           something the blind have never had access to."
+
+- title: Code's Worst Enemy
+  link:   http://steve-yegge.blogspot.com/2007/12/codes-worst-enemy.html
+  tags:   [reading]
+  desc:   |
+          "[...] people don't really talk much about code base size; it's not
+          widely recognized as a problem. In fact it's widely recognized as
+          a non-problem. [...] People in the industry are very excited about
+          various ideas that nominally help you deal with large code bases,
+          such as IDEs that can manipulate code as "algebraic structures", and
+          search indexes, and so on. These people tend to view code bases much
+          the way construction workers view dirt: they want great big machines
+          that can move the dirt this way and that. [...] Industry programmers
+          are excited about solutions to a big non-problem. It's just a
+          mountain of dirt, and you just need big tools to move it around.
+          The tools are exciting but the dirt is not."
+
+- title:  If Richard Feynman applied for a job at Microsoft
+  link:   http://hebig.org/blog/003029.php
+  tags:   [reading]
+  desc:   |
+          > "Why are manhole covers round" is one of the eternal
+          > questions in job interviews.
+
+- title:  Side-Channel Leaks in Web Applications
+  link:   http://www.freedom-to-tinker.com/blog/felten/side-channel-leaks-web-applications
+  tags:   [security]
+  desc:   |
+          "[...] eavesdropper can see the size of the request and reply
+           messages, and [...] these sizes sometimes leak information about
+           which page you're viewing [...]"
+
+- title:  PostgreSQL initdb shared memory error on OS X
+  link:   http://willbryant.net/software/mac_os_x/postgres_initdb_fatal_shared_memory_error_on_leopard
+  tags:   [db, solution]
+  desc:   |
+          "Easy to fix"
+
+- title:  Every day the same dream
+  link:   http://www.molleindustria.org/everydaythesamedream/everydaythesamedream.html
+  tags:   [game, aesthetics]

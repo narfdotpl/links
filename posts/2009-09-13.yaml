@@ -1,0 +1,43 @@
+- title:  Style is Substance
+  link:   http://www.artima.com/weblogs/viewpost.jsp?thread=74230
+  tags:   [reading]
+  desc:   |
+          > For example, I want the next C grammar to define that a space comes
+          > between any keyword and an opening parenthesis. "if (foo)" would be
+          > legal, but "if(foo)" would not. Not a warning, not optionally
+          > checked, but actually forbidden by the language parser. Flat out
+          > illegal. Can't compile.
+
+- title:  Bokode
+  link:   http://web.media.mit.edu/~ankit/bokode/
+  tags:   [reading]
+  desc:   |
+          "Current optical tags, such as barcodes, must be read within a short
+          range and the codes occupy valuable physical space on products. We
+          present a new low-cost optical design so that the tags can be shrunk
+          to 3mm visible diameter, and unmodified ordinary cameras several
+          meters away can be set up to decode the identity plus the relative
+          distance and angle."
+
+- title:  Duidoku
+  link:   http://duidoku.com/
+  tags:   [game]
+  desc:   two-player sudoku
+
+- title:  7 Habits For Effective Text Editing 2.0
+  link:   http://video.google.com/videoplay?docid=2538831956647446078
+  tags:   [vim, solution]
+  desc:   Bram Moolenaar's talk at Google about... text editing.
+
+- title:  Django Dose
+  link:   http://djangodose.com/
+  tags:   [django]
+  desc:   A source of fine Django podcasts.
+
+- title:  BigBelly Trash Compactors
+  link:   http://www.good.is/post/bigbelly-trash-compactors/
+  tags:   [video]
+
+- title:  Find a Flickr page from the .jpg's url
+  link:   http://revision3.com/tzdaily/2009-08-28flickrurl
+  tags:   [solution]
