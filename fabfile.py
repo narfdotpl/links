@@ -8,6 +8,7 @@ from fabric.api import cd, env, local, run, task
 
 
 CURR_DIR = dirname(realpath(__file__))
+APP_DIR = join(CURR_DIR, 'app')
 
 env.hosts = ['narf@narf.megiteam.pl']
 
@@ -15,7 +16,7 @@ env.hosts = ['narf@narf.megiteam.pl']
 @task
 def build():
     'generate html from yaml'
-    local("python '%s'" % join(CURR_DIR, 'app', 'generator.py'))
+    local("python '%s'" % join(APP_DIR, 'generator.py'))
     local("cd '%s' && cp -r vendor static" % APP_DIR)
 
 
@@ -38,6 +39,14 @@ def deploy():
 def restart():
     'restart production'
     run('restart-app ln')
+
+
+@task
+def test():
+    'run locally'
+    build()
+    local('open http://localhost:5000/')
+    local("python '%s'" % join(APP_DIR, 'server.py'))
 
 
 @task
