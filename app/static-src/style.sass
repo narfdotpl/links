@@ -1,0 +1,103 @@
+$line: 1.3em
+
+$white: #fff
+$bright: #aaa
+$brighter: #bbb
+$a-lot-brighter: #f0f0f0
+$normal: #333
+$dark: #000
+$blue: #00a
+
+
+@mixin transition($property, $duration, $type)
+  -webkit-transition: $property $duration $type
+  -moz-transition: $property $duration $type
+  -o-transition: $property $duration $type
+  transition: $property $duration $type
+
+
+html, body
+  height: 100%
+
+
+body
+  background: $white
+  color: $normal
+  font:
+    family: monospace
+    size: 16px
+  line-height: $line
+
+
+h1
+  color: $dark
+  font-weight: bold
+
+
+a
+  color: $blue
+  text-decoration: none
+  &:hover
+    text-decoration: underline
+
+
+.row
+  overflow: hidden
+
+.col
+  float: left
+  padding-left: 1em
+  &:first-child
+    padding-left: 0
+
+
+table
+  margin-top: $line
+
+  .bar
+    padding-left: 1.5em
+    color: $brighter
+
+
+#container
+  width: 48em
+  position: relative
+  padding: $line 1.5em
+
+
+#nav
+  position: absolute
+  right: 7em
+
+  a, span
+    color: $bright
+
+  & .ninja
+    color: $a-lot-brighter
+    @include transition(color, 1s, ease-in)
+
+    &:hover
+      color: $bright
+
+  &.ninja
+    a, span
+      color: $a-lot-brighter
+      @include transition(color, 0.3s, ease-in)
+
+    &:hover
+      a, span
+        color: $bright
+
+
+.unicode
+  font-family: sans-serif
+
+
+.link
+  margin-top: $line
+
+  .tags a
+    color: $bright
+
+  .show-tags a
+    color: $brighter

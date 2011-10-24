@@ -114,10 +114,14 @@ def _main():
 
                         tag_f.write(render(link, tag))
 
+    # create histogram bars for tags
+    tags = []
+    for name, count in tags_count.iteritems():
+        tags.append({'name': name, 'bar': '&middot;' * count})
+
     # render tags list
+    tags.sort(key=lambda dct: (-len(dct['bar']), dct['name']))
     with open(join(BUILD_DIR, 'tags.html'), 'w') as f:
-        tags = [{'name': n, 'count': c} for n, c
-                in sorted(tags_count.items(), key=lambda t: (-t[1], t[0]))]
         f.write(render(tags))
 
 

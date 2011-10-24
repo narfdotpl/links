@@ -79,7 +79,7 @@ def html_for(path):
 
 
 def wrap(sth):
-    return WRAPPER.render(inner=sth, debug=app.debug)
+    return WRAPPER.render(debug=app.debug, latest=LATEST_POST_PATH, inner=sth)
 
 
 # populate cache

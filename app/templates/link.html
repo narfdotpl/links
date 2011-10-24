@@ -6,16 +6,17 @@
         </div>
 
         {# tags #}
-        <div class="col tags">
+        <div class="col show-tags">
+            <a href="#" class="js-show-tags unicode">&hellip;</a>
+        </div>
+        <div class="col tags js-tags" style="display: none">
             {% for tag in link.tags %}
                 {% if tag.name != current_tag_name %}
-                    <a href="{{ tag.url }}" class="js-pjax">
-                        {% if tag.name == '_post' %}
-                            #
-                        {% else %}
-                            {{ tag.name }}
-                        {% endif %}
-                    </a>
+                    {% if tag.name == '_post' %}
+                        <a href="{{ tag.url }}" class="js-pjax">&#x2261;</a>
+                    {% else %}
+                        <a href="{{ tag.url }}" class="js-pjax">{{ tag.name }}</a>
+                    {% endif %}
                 {% endif %}
             {% endfor %}
         </div>

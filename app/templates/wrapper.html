@@ -3,17 +3,21 @@
     <head>
         <meta content="text/html;charset=utf-8" http-equiv="content-type" />
         <!--
-            for actual code, visit
+            for actual code visit
             https://github.com/narfdotpl/ln
         -->
         <title>ln</title>
+        <link href='/static/style.css' rel='stylesheet' />
     </head>
     <body>
-        <div class="row">
-            <div class="col">
-                <a href="/">home</a>
+        <div id="container">
+            <div id="nav">
+                <a href="/{{ latest }}" class="js-pjax">latest</a>
+                <span>&middot;</span>
+                <a href="/tags" class="js-pjax">tags</a>
             </div>
-            <div class="col" id="content">
+
+            <div id="content">
                 {{ inner }}
             </div>
         </div>
@@ -24,8 +28,6 @@
             <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
         {% endif %}
         <script src="/static/jquery.pjax.min.js"></script>
-        <script>
-            $('a.js-pjax').pjax('#content')
-        </script>
+        <script src="/static/app.js"></script>
     </body>
 </html>
