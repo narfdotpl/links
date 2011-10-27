@@ -72,17 +72,21 @@ def get_posts():
 
 
 def render(a1, a2=None):
-    if isinstance(a1, (Link, Post, Tag)):
-        name = a1.__class__.__name__.lower()
-    else:
-        name = 'tags'
-
+    name = a1.__class__.__name__.lower()
     kw = {name: a1}
 
     if isinstance(a1, Link):
         kw['current_tag_name'] = a2.name if a2 else '_post'
 
     return templates[name].render(kw)
+
+
+def render_and_write(filename, **kw):
+    with open(join(TEMPLATES_DIR, filename)) as f:
+        template = Template(f.read())
+
+    with open(join(BUILD_DIR, filename), 'w') as f:
+        f.write(template.render(kw))
 
 
 def _main():
@@ -96,7 +100,9 @@ def _main():
     tags_count = defaultdict(int)
 
     # render posts creating tag pages as you go by
+    dates = []
     for post in get_posts():
+        dates.append(post.date)
 
         with open(post.path, 'w') as post_f:
             post_f.write(render(post))
@@ -121,8 +127,10 @@ def _main():
 
     # render tags list
     tags.sort(key=lambda dct: (-len(dct['bar']), dct['name']))
-    with open(join(BUILD_DIR, 'tags.html'), 'w') as f:
-        f.write(render(tags))
+    render_and_write('tags.html', tags=tags)
+
+    # render feed
+    render_and_write('feed.xml', dates=dates)
 
 
 if __name__ == '__main__':

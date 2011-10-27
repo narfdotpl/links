@@ -6,7 +6,7 @@ from functools import wraps
 from os import listdir
 from os.path import dirname, join, realpath
 
-from flask import Flask, redirect, request
+from flask import Flask, make_response, redirect, request
 from jinja2 import Template
 
 
@@ -16,7 +16,7 @@ BUILD_DIR = join(CURR_DIR, 'build')
 TEMPLATES_DIR = join(CURR_DIR, 'templates')
 
 # list available website paths
-PATHS = []
+PATHS = ['feed']
 ext = '.html'
 ext_len = len(ext)
 for prefix in ['', 'tags/']:
@@ -48,6 +48,9 @@ def bohemian_behemoth(path):
     if path not in PATHS:
         return '404', 404
 
+    if path == 'feed':
+        return teenage_mutant_ninja_burrito()
+
     if 'X-PJAX' in request.headers:
         return html_for(path)
     else:
@@ -74,7 +77,18 @@ def abomimemonationize(func):
 
 @abomimemonationize
 def html_for(path):
-    with open(join(BUILD_DIR, path + '.html')) as f:
+    return takeaway(path + '.html')
+
+
+@abomimemonationize
+def teenage_mutant_ninja_burrito():
+    response = make_response(takeaway('feed.xml'))
+    response.mimetype = 'application/atom+xml'
+    return response
+
+
+def takeaway(path):
+    with open(join(BUILD_DIR, path)) as f:
         return f.read()
 
 
@@ -83,7 +97,7 @@ def wrap(sth):
 
 
 # populate cache
-for path in PATHS:
+for path in PATHS[1:]:
     html_for(path)
 
 
