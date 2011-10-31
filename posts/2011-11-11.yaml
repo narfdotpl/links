@@ -1,0 +1,69 @@
+- title:  Sleuth
+  link:   http://en.wikipedia.org/wiki/Sleuth_(2007_film)
+  tags:   [film]
+  desc:   |
+          "Look, is this a game?"
+
+- title:  git-annex
+  link:   http://git-annex.branchable.com/
+  tags:   [tool]
+  desc:   |
+          "allows managing files with git, without checking the file
+          contents into git"
+
+          I started using annex to keep my mp3s in sync after buying the
+          new laptop.  So far, I can only complain about the installation
+          process (oh, the joys of Haskell).  I use only the very basic
+          functionality, though.
+
+          Most of my music collection is still not on the new machine.
+          When I find that I miss some artist, I wake my old white MacBook
+          from sleep, type something like "play john5" in my Air's terminal,
+          and get actual mp3s from white:~/Music/mp3/john5 rsynced over
+          wifi and opened in iTunes.  Quite pleasant. :)
+
+- title:  Personal names around the world
+  link:   http://www.w3.org/International/questions/qa-personal-names
+  tags:   [reading]
+
+- title:  A Brief Rant on the Future of Interaction Design
+  link:   http://worrydream.com/ABriefRantOnTheFutureOfInteractionDesign/
+  tags:   [hci]
+
+- title:  Novint Falcon Pistol Grip
+  link:   http://www.youtube.com/watch?v=wuKH7alJqhY
+  tags:   [hci, video]
+
+- title:  Water Jet Pack
+  link:   http://www.youtube.com/watch?v=7-KczCp0OQ4
+  tags:   [video]
+
+- title:  Cindermedusae
+  link:   http://marcinignac.com/projects/cindermedusae/
+  tags:   [aesthetics]
+  desc:   generative creatures
+
+- title:  The Lincolnshire Poacher
+  link:   http://thelincolnshirepoacher.com/
+  tags:   [aesthetics]
+  desc:   |
+          generative art
+          I allways forget the URL
+          (oz)
+
+- title:  Bliss n Eso
+  link:   http://www.youtube.com/watch?v=EkkpRE660Ls
+  tags:   [music, video]
+  desc:   |
+          <3 last two albums
+          (oz)
+
+- title:  Drapht
+  link:   http://www.youtube.com/watch?v=busw19zyBqQ
+  tags:   [music]
+  desc:   as above
+
+- title:  Tim Minchin at his best
+  link:   http://www.youtube.com/watch?v=ET1-_PeExMs
+  tags:   [video]
+  desc:   (oz)
