@@ -46,5 +46,5 @@
 
 - title:  Installing psycopg2 on OS X
   link:   http://blog.jonypawks.net/2008/06/20/installing-psycopg2-on-os-x/
-  tags:   [python, db, solution]
+  tags:   [python, solution]
   desc:   can save you a few hours
