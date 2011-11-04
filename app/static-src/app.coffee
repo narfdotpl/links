@@ -5,7 +5,8 @@ wait = (ms, f) -> setTimeout(f, ms)
 $('a.js-pjax').pjax('#content')
 
 # fade out after clicking pjax link
-$('a.js-pjax').live 'click', ->
+$('a.js-pjax').live 'click', (ev) ->
+    return true if ev.which != 1 or ev.metaKey or ev.shiftKey
     $('div, h1, table', '#content').fadeOut(300)
 
 # show tags after clicking ellipsis
