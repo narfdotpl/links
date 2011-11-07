@@ -3,8 +3,8 @@
   tags:   [tool]
   desc:   |
           "Manage ssh and GPG keys in a convenient and secure manner. [...]
-           You only need to enter a passphrase once every time your local
-           machine is rebooted."
+          You only need to enter a passphrase once every time your local
+          machine is rebooted."
 
 - title:  local_settings.py Considered Harmful
   link:   http://blog.bitquabit.com/2009/10/02/local_settingspy-considered-harmful/
@@ -35,7 +35,7 @@
   tags:   [python]
   desc:   |
           "An alternative to Python's `dir` function.
-           Easy to type; easy to read! For humans only."
+          Easy to type; easy to read! For humans only."
 
 - title:  SOFA - Affairz (feat. OSTR)
   link:   http://www.youtube.com/watch?v=7cSCpLVP_LQ

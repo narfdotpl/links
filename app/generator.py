@@ -32,8 +32,6 @@ class Link(object):
         self.tags = map(Tag, dct['tags'])
         self.tags.append(Tag('_post', post))
 
-        self._dct['desc'] = self._dct.get('desc', '').replace('\n', '<br>')
-
     def __getattr__(self, name):
         return self._dct.get(name)
 

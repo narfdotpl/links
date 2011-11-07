@@ -9,31 +9,31 @@
   tags:   [music, aesthetics]
   desc:   |
           "A complete electronic circuit--programmed by the artist and
-           assembled by hand--plays the music through a headphone jack
-           mounted into the case itself."
+          assembled by hand--plays the music through a headphone jack
+          mounted into the case itself."
 
 - title:  Vimcasts
   link:   http://vimcasts.org/
   tags:   [vim, video]
   desc:   |
           "Regular screencasts about the Vim text editor. Episodes are kept
-           short -- typically less than 5 minutes, never more than 10."
+          short -- typically less than 5 minutes, never more than 10."
 
 - title:  Thoughts on Flash
   link:   http://www.apple.com/hotnews/thoughts-on-flash/
   tags:   [flash, reading]
   desc:   |
           "Flash is a successful business for Adobe, and we can understand
-           why they want to push it beyond PCs. But the mobile era is about
-           low power devices, touch interfaces and open web standards -- all
-           areas where Flash falls short."
+          why they want to push it beyond PCs. But the mobile era is about
+          low power devices, touch interfaces and open web standards -- all
+          areas where Flash falls short."
 
 - title:  Clockwise/Spiral Rule
   link:   http://c-faq.com/decl/spiral.anderson.html
   tags:   [else]
   desc:   |
           "Technique [...] which enables any C programmer to parse in their
-           head any C declaration".
+          head any C declaration".
 
 - title:  diff for GitHub gists
   link:   http://chrome.google.com/extensions/detail/ekibhngllckenihijddjkmehiocljcpc

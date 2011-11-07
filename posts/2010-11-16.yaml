@@ -3,10 +3,10 @@
   tags:   [ios, hci, reading]
   desc:   |
           "I anticipated a weird and slightly arduous journey, especially
-           when it came to using the keyboard. To my great surprise, I picked
-           it up immediately. Within 30 seconds, I checked the weather. Next,
-           I read some stock prices. Amazingly, it even renders stock charts,
-           something the blind have never had access to."
+          when it came to using the keyboard. To my great surprise, I picked
+          it up immediately. Within 30 seconds, I checked the weather. Next,
+          I read some stock prices. Amazingly, it even renders stock charts,
+          something the blind have never had access to."
 
 - title:  Code's Worst Enemy
   link:   http://steve-yegge.blogspot.com/2007/12/codes-worst-enemy.html
@@ -36,8 +36,8 @@
   tags:   [reading]
   desc:   |
           "[...] eavesdropper can see the size of the request and reply
-           messages, and [...] these sizes sometimes leak information about
-           which page you're viewing [...]"
+          messages, and [...] these sizes sometimes leak information about
+          which page you're viewing [...]"
 
 - title:  PostgreSQL initdb shared memory error on OS X
   link:   http://willbryant.net/software/mac_os_x/postgres_initdb_fatal_shared_memory_error_on_leopard
