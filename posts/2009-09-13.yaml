@@ -26,8 +26,8 @@
 
 - title:  7 Habits For Effective Text Editing 2.0
   link:   http://video.google.com/videoplay?docid=2538831956647446078
-  tags:   [vim, solution]
-  desc:   Bram Moolenaar's talk at Google about... text editing.
+  tags:   [vim, talk, solution]
+  desc:   talk by Bram Moolenaar, the author of Vim
 
 - title:  Django Dose
   link:   http://djangodose.com/
