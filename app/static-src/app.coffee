@@ -2,12 +2,17 @@
 wait = (ms, f) -> setTimeout(f, ms)
 
 # use pjax
-$('a.js-pjax').pjax('#content')
-
-# fade out after clicking pjax link
-$('a.js-pjax').live 'click', (ev) ->
+$('a.js-pjax').pjax('#content').live 'click', (ev) ->
+    # quit, if it's not a normal click
     return true if ev.which != 1 or ev.metaKey or ev.shiftKey
+
+    # fade out
     $('div, h1, table', '#content').fadeOut(300)
+
+    # scroll to top (do this weird trick with oneoff callback to make
+    # browsers' "back" button respect scroll)
+    $('body').one 'pjax:end', ->
+        scrollTo(0, 0)
 
 # show tags after clicking ellipsis
 $('a.js-show-tags').live 'click', ->
