@@ -6,7 +6,7 @@
 
 - title:  git-annex
   link:   http://git-annex.branchable.com/
-  tags:   [tool]
+  tags:   [haskell, tool]
   desc:   |
           "allows managing files with git, without checking the file
           contents into git"
@@ -63,7 +63,9 @@
   tags:   [music]
   desc:   as above
 
-- title:  Tim Minchin at his best
+- title:  Tim Minchin - Religion
   link:   http://www.youtube.com/watch?v=ET1-_PeExMs
   tags:   [video]
-  desc:   (oz)
+  desc:   |
+          Minchin at his best
+          (oz)
