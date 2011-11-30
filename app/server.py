@@ -57,12 +57,6 @@ def bohemian_behemoth(path):
         return wrap(html_for(path))
 
 
-# only in dev
-@app.route('/static/<path:path>')
-def threadsafeghostbustersandwichfactory(path):
-    return app.send_static_file(path)
-
-
 def abomimemonationize(func):
     cache = {}
 
