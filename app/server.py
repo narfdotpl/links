@@ -31,6 +31,10 @@ LATEST_POST_PATH = sorted(filter(lambda s: s[0] == '2', PATHS))[-1]
 with open(join(TEMPLATES_DIR, 'wrapper.html')) as f:
     WRAPPER = Template(f.read())
 
+# read 404 page
+with open(join(TEMPLATES_DIR, '404.html')) as f:
+    html_for_404 = f.read()
+
 # create wsgi app
 app = Flask(__name__)
 
@@ -46,7 +50,7 @@ def bohemian_behemoth(path):
         return redirect(path.rstrip('/'))
 
     if path not in PATHS:
-        return '404', 404
+        return html_for_404, 404
 
     if path == 'feed':
         return teenage_mutant_ninja_burrito()
