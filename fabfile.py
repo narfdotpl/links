@@ -27,7 +27,8 @@ def build():
 
     # js
     in_app_dir('cp -r vendor static')
-    in_app_dir('coffee --print static-src/app.coffee > static/app.js')
+    in_app_dir('coffee --print static-src/app.coffee | uglifyjs '
+               '> static/app.js')
 
     # css
     css = 'static/style.css'
