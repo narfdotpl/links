@@ -1,0 +1,52 @@
+- title:  How GitHub Uses GitHub to Build GitHub
+  link:   http://lanyrd.com/2011/rubyconf/shzrd/
+  tags:   [talk]
+  desc:   talk by Zach Holman
+
+- title:  Closer to Nirvana
+  link:   http://channel9.msdn.com/Blogs/Charles/YOW-2011-Simon-Peyton-Jones-Closer-to-Nirvana
+  tags:   [haskell, interview]
+  desc:   |
+          Simon Peyton Jones, coauthor of GHC, on types as APIs,
+          Haskell intermediate language, 30k cores parallelism,
+          Erlang as a Haskell library, CS education for kids,
+          Google Dart, and more.
+
+- title:  Perl 6 junctions
+  link:   http://en.wikipedia.org/wiki/Perl_6#Junctions
+  tags:   [else]
+
+- title:  Richard Branson on drugs
+  link:   http://www.virgin.com/richard-branson/blog/time-to-end-the-war-on-drugs
+  tags:   [reading]
+  desc:   |
+          +1 for Portuguese gov
+          (pun intended)
+
+- title:  404 parking spaces
+  link:   http://www.youtube.com/watch?v=x82lHVPkeF0
+  tags:   [video]
+
+- title:  Science Mnemonics
+  link:   http://xkcd.com/992/
+  tags:   [comics]
+  desc:   |
+          "Microsoft Made No Profit From Anyone's Zunes, Yo"
+
+- title:  Tom Morello
+  link:   http://en.wikipedia.org/wiki/Tom_Morello#Appearances_in_films
+  tags:   [trivia]
+  desc:   played in Star Trek
+
+- title:  SproutCore 2.0 renamed Amber.js renamed Ember.js
+  link:   http://yehudakatz.com/2011/12/12/amber-js-formerly-sproutcore-2-0-is-now-ember-js/
+  tags:   [else]
+  desc:   I'll stick to Backbone.js for a while
+
+- title:  Dark Knight necklace
+  link:   http://netcrap.soup.io/post/201548142/Holly-Shit
+  tags:   [trivia]
+
+- title:  20%
+  link:   http://www.dilbert.com/2011-12-19/
+  tags:   [comics]
