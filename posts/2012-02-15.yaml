@@ -1,0 +1,64 @@
+- title:  Scott Pilgrim vs the World
+  link:   http://en.wikipedia.org/wiki/Scott_Pilgrim_vs._the_World
+  tags:   [film]
+  desc:   |
+          "We are Sex Bob-Omb and we are here to make you think about
+          death and get sad and stuff!"
+
+- title:  A History of Programming Languages
+  link:   http://james-iry.blogspot.com/2009/05/brief-incomplete-and-mostly-wrong.html
+  tags:   [reading]
+  desc:   |
+          "Years later, in a misguided and sexist retaliation against
+          Adm. Hopper's COBOL work, Ruby conferences frequently feature
+          misogynistic material."
+
+- title:  wat
+  link:   https://www.destroyallsoftware.com/talks/wat
+  tags:   [talk]
+  desc:   |
+          > Array(16).join("wat" - 1) + " Batman!"
+
+- title:  Building Lanyrd
+  link:   http://lanyrd.com/2011/brightonpy-building-lanyrd/sgptt/
+  tags:   [python, django, talk]
+  desc:   talk by Simon Willison
+
+- title:  The Page Turner
+  link:   http://www.youtube.com/watch?v=GOMIBdM6N7Q
+  tags:   [video]
+  desc:   disturbingly familiar
+
+- title:  Scorekeeper
+  link:   http://www.youtube.com/watch?v=sXqXpwyBI1k
+  tags:   [ios, hci, aesthetics]
+  desc:   available for iOS too
+
+- title:  Derringer Cycles
+  link:   http://derringercycles.com/
+  tags:   [aesthetics]
+
+- title:  Matt Might on The Setup
+  link:   http://matt.might.usesthis.com/
+  tags:   [interview]
+
+- title:  Fuzz Face
+  link:   http://www.youtube.com/watch?v=ntonFtX4Fpo
+  tags:   [music, video, aesthetics]
+
+- title:  Darkness
+  link:   http://english.bouletcorp.com/2012/02/01/darkness/
+  tags:   [comics]
+
+- title:  Daily Levitation
+  link:   http://yowayowacamera.com/
+  tags:   [aesthetics]
+
+- title:  Pinhole
+  link:   http://www.flickr.com/photos/shanghaisound/3324017761/
+  tags:   [aesthetics]
+
+- title:  Cigarette Burns
+  link:   http://iwdrm.tumblr.com/post/2582102172/in-the-industry-we-call-them-cigarette-burns
+  tags:   [aesthetics]
+  desc:   If we don't, remember me.
