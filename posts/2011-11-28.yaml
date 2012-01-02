@@ -40,11 +40,7 @@
   tags:   [tim-minchin, video, aesthetics]
   desc:   the animated movie
 
-- title:  The Automatic - Steve McQueen
-  link:   http://www.youtube.com/watch?v=rLgvVssBBaU
-  tags:   [music]
-
-- title:  Prefuse 73 - Storm Returns
+- title:  Storm Returns
   link:   http://www.youtube.com/watch?v=SlGhG20BkWw
   tags:   [music]
 
@@ -53,3 +49,7 @@
   tags:   [typo]
   desc:   |
           monospaced font doesn't quite do the trick...
+
+- title:  Steve McQueen
+  link:   http://www.youtube.com/watch?v=rLgvVssBBaU
+  tags:   [music]
