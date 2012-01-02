@@ -6,7 +6,7 @@
 
 - title:  git-annex
   link:   http://git-annex.branchable.com/
-  tags:   [haskell, tool]
+  tags:   [haskell, git, tool]
   desc:   |
           "allows managing files with git, without checking the file
           contents into git"
