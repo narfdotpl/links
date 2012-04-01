@@ -1,0 +1,52 @@
+- title:  The Future of Python HTTP
+  link:   http://kennethreitz.com/the-future-of-python-http.html
+  tags:   [python]
+  desc:   |
+          > In Requests, you'll be able to mount external services to the
+          > routing mechanism by mocking HTTP. To Requests, it'll be an HTTP
+          > Service, but in reality the service could be anything: a random
+          > number generator, ZeroMQ socket, proxy, WSGI application, &c.
+
+- title:  Xonses progress report
+  link:   http://axisofeval.blogspot.com/2012/04/xonses-progress-report.html
+  tags:   [lisp]
+
+- title:  The AI Systems of Left 4 Dead
+  link:   http://www.valvesoftware.com/publications/2009/ai_systems_of_l4d_mike_booth.pdf
+  tags:   [gamedev]
+  desc:   PDF
+
+- title:  |
+          Stanford CS193P: iOS Application Development
+  link:   http://cs193p.stanford.edu/
+  tags:   [ios]
+  desc:   |
+          Great Objective-C, XCode, and UIKit resources for beginners.
+          Fall 2011 lectures are available on iTunes U and are up to date
+          with XCode 4.2 and iOS 5.0.
+
+- title:  |
+          iA Writer: On Prices and Features
+  link:   http://www.informationarchitects.jp/en/ia-writer-on-prices-and-features/
+  tags:   [ios, reading]
+  desc:   |
+          > Let's kill this meme that software priced lower than a large
+          > pizza is somehow "expensive".
+
+- title:  Corrupted Blood
+  link:   http://en.wikipedia.org/wiki/Corrupted_Blood_incident
+  tags:   [trivia]
+
+- title:  Clear
+  link:   http://www.realmacsoftware.com/clear/
+  tags:   [ios, hci]
+  desc:   |
+          Minimal todo list iPhone app "almost entirely controlled
+          by gestures".  I use it every day.  UI takes a few minutes to
+          get used to, but after that it doesn't get in the way much...
+          Learning which swipe means "check" and which means "delete"
+          took me about three days, though.
+
+- title:  You Need Me, I Don't Need You
+  link:   http://www.youtube.com/watch?v=ZXvzzTICvJs
+  tags:   [music]
