@@ -1,0 +1,52 @@
+- title:  Light Table
+  link:   http://www.chris-granger.com/2012/04/12/light-table---a-new-ide-concept/
+  tags:   [hci, lisp, aesthetics]
+  desc:   |
+          IDE concept
+
+          http://www.kickstarter.com/projects/306316578/light-table
+          http://news.ycombinator.com/item?id=3837512
+
+- title:  f.lux
+  link:   http://stereopsis.com/flux/
+  tags:   [solution]
+  desc:   |
+          "makes the color of your computer's display adapt to the time
+          of day, warm at night and like sunlight during the day"
+
+- title:  Volatile Software
+  link:   http://stevelosh.com/blog/2012/04/volatile-software/
+  tags:   [reading]
+  desc:   |
+          > [...] the fact that manually specifying version numbers to
+          > avoid running *newer* code is commonplace, expected, and
+          > a "best practice" horrifies me.
+
+- title:  A stylesheet author's guide to terminal colors
+  link:   http://wynnnetherland.com/journal/a-stylesheet-author-s-guide-to-terminal-colors
+  tags:   [solution]
+  desc:   |
+          > Use grc to add "stylesheets" and personal color settings for
+          > your favorite terminal apps.
+
+          https://github.com/narfdotpl/dotfiles/tree/master/home/.grc
+
+- title:  Easter spending patterns in Spain, animated
+  link:   http://flowingdata.com/2012/04/30/easter-spending-patterns-in-spain-animated/
+  tags:   [visualization]
+
+- title:  Mechanic Fantasy
+  link:   http://english.bouletcorp.com/2012/04/23/mechanic-fantasy/
+  tags:   [comics]
+  desc:   |
+          "Wouldn't they be a bit surprised that 90% of their universe
+          is missing?"
+
+- title:  '@smartArg'
+  link:   https://twitter.com/smartArg
+  tags:   [trivia]
+  desc:   ASCII tweets campaign
+
+- title:  Bangarang
+  link:   http://www.youtube.com/watch?v=YJVmu6yttiw
+  tags:   [music, video]
