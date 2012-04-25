@@ -2,10 +2,10 @@
   link:   http://kennethreitz.com/the-future-of-python-http.html
   tags:   [python]
   desc:   |
-          > In Requests, you'll be able to mount external services to the
-          > routing mechanism by mocking HTTP. To Requests, it'll be an HTTP
-          > Service, but in reality the service could be anything: a random
-          > number generator, ZeroMQ socket, proxy, WSGI application, &c.
+          "In Requests, you'll be able to mount external services to the
+          routing mechanism by mocking HTTP. To Requests, it'll be an HTTP
+          Service, but in reality the service could be anything: a random
+          number generator, ZeroMQ socket, proxy, WSGI application, &c."
 
 - title:  Xonses progress report
   link:   http://axisofeval.blogspot.com/2012/04/xonses-progress-report.html
