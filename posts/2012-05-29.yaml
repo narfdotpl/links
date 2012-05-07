@@ -1,0 +1,59 @@
+- title:  Git Internals
+  link:   http://git-scm.com/book/en/Git-Internals
+  tags:   [git, reading]
+  desc:   |
+          Chapter of "Pro Git" that can be read independently from the rest
+          of the book (assuming one already knows some Git).
+
+          Free downloads available in mobi, ePub, and PDF formats.
+
+- title:  Diablo 3's Ability System
+  link:   http://www.sirlin.net/blog/2012/5/3/diablo-3s-ability-system.html
+  tags:   [gamedev]
+  desc:   |
+          Automatic stats allocation, no skill trees, free respecs, each
+          skill in six versions.
+
+- title:  Responsive Typography
+  link:   http://informationarchitects.net/blog/responsive-typography/
+  tags:   [typo]
+  desc:   |
+          "in order to make the font look the same [...], the low resolution
+          font needs to be designed a little bit lighter"
+
+- title:  Responsive Ima Standards at the
+  link:   http://inky.tumblr.com/post/23483748684
+  tags:   [else]
+
+- title:  Colorific
+  link:   http://99designs.com/tech-blog/blog/2012/05/11/color-analysis/
+  tags:   [python, tool]
+  desc:   |
+          "determines what the most important colors used in your image are,
+          and if one of them is a background color"
+
+- title:  Among The Sleep
+  link:   http://www.krillbite.com/ats/
+  tags:   [trivia, game]
+  desc:   first person horror adventure, in which you play as a two-year-old
+
+- title:  Edible Survival Guide
+  link:   http://theinspirationroom.com/daily/2012/land-rover-edible-desert-survival-guide/
+  tags:   [trivia]
+
+- title:  Noah Mashup
+  link:   http://www.youtube.com/watch?v=niRUYlMDKsU
+  tags:   [music]
+  desc:   |
+          "Ain't No Sunshine" and "Harder to Breathe"
+
+- title:  Notch
+  link:   https://twitter.com/notch/status/204949214210424832
+  tags:   [quote]
+  desc:   |
+          "Lots of people want to work with us to help us show you ads.
+          We politely explain to them that lolno."
+
+- title:  Life in Life
+  link:   http://www.youtube.com/watch?v=xP5-iIeKXE8
+  tags:   [trivia]
