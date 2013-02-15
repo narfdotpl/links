@@ -1,21 +1,21 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <feed xmlns='http://www.w3.org/2005/Atom'>
-    <title>ln</title>
+    <title>links</title>
     <author>
         <name>Maciej Konieczny</name>
         <uri>http://narf.pl/</uri>
     </author>
-    <id>http://ln.narf.pl/</id>
+    <id>http://links.narf.pl/</id>
     <updated>{{ dates.0 }}T00:00:00+02:00</updated>
-    <link href='http://ln.narf.pl/feed' rel='self' type='application/atom+xml' />
+    <link href='http://links.narf.pl/feed' rel='self' type='application/atom+xml' />
     {% for date in dates %}
         <entry>
             <title>{{ date }}</title>
-            <link href='http://ln.narf.pl/{{ date }}' rel='alternate' type='text/html' />
-            <id>http://ln.narf.pl/{{ date }}</id>
+            <link href='http://links.narf.pl/{{ date }}' rel='alternate' type='text/html' />
+            <id>http://links.narf.pl/{{ date }}</id>
             <updated>{{ date }}T00:00:00+02:00</updated>
             <content type='html'>
-                visit &lt;a href='http://ln.narf.pl/{{ date }}'&gt;ln.narf.pl/{{ date }}&lt;/a&gt;
+                visit &lt;a href='http://links.narf.pl/{{ date }}'&gt;links.narf.pl/{{ date }}&lt;/a&gt;
             </content>
         </entry>
     {% endfor %}

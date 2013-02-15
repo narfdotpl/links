@@ -44,13 +44,13 @@ def deploy():
     build()
     local('git push')
 
-    with cd('~/narf.pl/ln/depl'):
+    with cd('~/narf.pl/links/depl'):
         run('git pull')
         run('source .environment && pip install -r ../env/reqs')
 
     for subdir_name in ['build', 'static']:
         rsync(local_dir=join(APP_DIR, subdir_name),
-              remote_dir='~/narf.pl/ln/app',
+              remote_dir='~/narf.pl/links/app',
               delete=True)
 
     restart()
@@ -60,7 +60,7 @@ def deploy():
 @task
 def restart():
     'restart production'
-    run('restart-app ln')
+    run('restart-app links')
 
 
 @task
@@ -73,8 +73,8 @@ def test():
 
 @task
 def visit():
-    'visit ln.narf.pl'
-    local('open http://ln.narf.pl/')
+    'visit links.narf.pl'
+    local('open http://links.narf.pl/')
 
 
 if __name__ == '__main__':

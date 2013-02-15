@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-VENV=$HOME/narf.pl/ln/env/ln
+VENV=$HOME/narf.pl/links/env/links
 
 export PATH=$VENV/bin:$PATH
 export PYTHONPATH=$VENV/lib/python2.7/site-packages
