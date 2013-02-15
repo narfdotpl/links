@@ -14,12 +14,12 @@ base_url = 'http://links.narf.pl/'
 
 @app.route('/')
 def flipflop_ninja():
-    return redirect(base_url)
+    return redirect(base_url, 301)
 
 
 @app.route('/<path:path>')
 def bohemian_behemoth(path):
-    return redirect(base_url + path)
+    return redirect(base_url + path, 301)
 
 
 if __name__ == '__main__':
