@@ -41,7 +41,7 @@
 
 - title:  Mosh
   link:   http://mosh.mit.edu/
-  tags:   [else]
+  tags:   [tool]
   desc:   |
           "Replaces interactive SSH. Instant keystroke response, robust
           roaming".  Be sure to check out the video.
