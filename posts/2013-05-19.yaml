@@ -1,0 +1,63 @@
+- title:  Vsauce
+  link:   http://www.youtube.com/user/Vsauce
+  tags:   [trivia, video]
+  desc:   |
+          awesome scientific/trivia YouTube channel
+
+- title:  C.G.P. Grey
+  link:   http://www.youtube.com/user/CGPGrey
+  tags:   [trivia, video]
+  desc:   |
+          awesome trivia YouTube channel
+
+- title:  Sunday Brunch
+  link:   http://english.bouletcorp.com/2012/08/21/sunday-brunch/
+  tags:   [comics]
+
+- title:  48 FPS in VGHS 2
+  link:   http://www.kickstarter.com/projects/freddiew/video-game-high-school-season-two/posts/479336
+  tags:   [trivia]
+  desc:   |
+          "Some people complain that 48 fps looks too much like a video
+          game - which happens to be perfect for how we're using it. The
+          in-video-game action sequences of VGHS Season 2 were shot at 48
+          fps with the intention of playback at 48 fps. The in-the-real-world
+          sequences are shot at a much more traditional 24 fps."
+
+- title:  Rapid Prototyping
+  link:   http://www.youtube.com/watch?v=d5_h1VuwD6g
+  tags:   [hci, talk]
+  desc:   |
+          talk by Tom Chi
+
+- title:  Drawing Dynamic Visualizations
+  link:   http://vimeo.com/66085662
+  tags:   [hci, visualization, talk]
+  desc:   |
+          talk by Bret Victor
+
+- title:  The Art of Diablo III
+  link:   http://gdcvault.com/play/1015306/The-Art-of-Diablo
+  tags:   [gamedev, talk]
+  desc:   |
+          talk by Christian Lichtner
+
+- title:  The purpose of DRM
+  link:   https://plus.google.com/107429617152575897589/posts/iPmatxBYuj2
+  tags:   [reading]
+
+- title:  Lingotto
+  link:   http://www.retronaut.com/2013/05/rooftop-racetrack/
+  tags:   [aesthetics, trivia]
+  desc:   |
+          "Built between 1916 and 1923 [...] there was a rooftop test track."
+
+- title:  GeoGuessr
+  link:   http://geoguessr.com/
+  tags:   [game]
+  desc:   |
+          "Look at the area and figure out where you are."
+
+- title:  Why are fire trucks red?
+  link:   http://www.wolframalpha.com/input/?i=why+are+fire+trucks+red%3F
+  tags:   [else]
