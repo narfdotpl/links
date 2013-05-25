@@ -47,7 +47,7 @@ def flipflop_ninja():
 @app.route('/<path:path>')
 def bohemian_behemoth(path):
     if path.endswith('/'):
-        return redirect(path.rstrip('/'))
+        return redirect(path.rstrip('/'), 301)
 
     if path not in PATHS:
         return html_for_404, 404
