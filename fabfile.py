@@ -58,17 +58,17 @@ def deploy():
 
 
 @task
-def restart():
-    'restart production'
-    run('restart-app links')
-
-
-@task
-def test():
+def dev():
     'run locally'
     build()
     local('open http://localhost:5000/')
     local("python '%s'" % join(APP_DIR, 'server.py'))
+
+
+@task
+def restart():
+    'restart production'
+    run('restart-app links')
 
 
 @task
