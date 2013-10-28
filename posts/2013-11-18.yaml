@@ -1,0 +1,72 @@
+- title:  Ash Thorp
+  link:   http://ashthorp.com/
+  tags:   [aesthetics]
+  desc:   |
+          OMFG
+
+- title:  inFORM
+  link:   http://tangible.media.mit.edu/project/inform/
+  tags:   [hci, video]
+  desc:   |
+          "a Dynamic Shape Display that can render 3D content physically"
+
+- title:  Instant Webcam
+  link:   http://instant-webcam.com/
+  tags:   [ios]
+  desc:   |
+          "Instant Webcam encodes video in MPEG1 format and sends the
+          frames over WebSockets to connected Browsers. The Browser then
+          decodes the MPEG Stream in JavaScript and paints into a Canvas.
+          It's a huge hack, but one that turned out to work really well."
+
+- title:  Kinetic Wind Sculptures
+  link:   http://www.youtube.com/watch?v=RshSaF_juGs
+  tags:   [aesthetics, video]
+  desc:   |
+          by Anthony Howe
+
+- title:  Futura
+  link:   http://vimeo.com/77180455
+  tags:   [typo, video]
+
+- title:  Art and Code from Glitch released into Public Domain
+  link:   http://www.glitchthegame.com/public-domain-game-art/
+  tags:   [gamedev]
+  desc:   |
+          "Tiny Speck, Inc., the game's developer, has relinquished its
+          ownership of copyright over these 10,000+ assets in the hopes
+          that they help others in their creative endeavours and build
+          on Glitch's legacy of simple fun, creativity and an appreciation
+          for the preposterous.  Go and make beautiful things."
+
+- title:  NERO MKII
+  link:   http://www.banditnine.com/fleet/nero-mkii/
+  tags:   [motorcycle]
+  desc:   |
+          by Bandit9
+
+- title:  BMW R1200
+  link:   http://www.bikeexif.com/bmw-r1200
+  tags:   [motorcycle]
+  desc:   |
+          by Giulio Paz Design
+
+- title:  Roomba Swarm in the Dark
+  link:   http://www.flickr.com/photos/ibroomba/3987493218/
+  tags:   [visualization]
+
+- title:  Roomba Art
+  link:   http://www.flickr.com/groups/1109806@N21/
+  tags:   [aesthetics]
+
+- title:  The Beast in Me
+  link:   http://english.bouletcorp.com/2013/11/02/the-beast-in-me-2/
+  tags:   [comics]
+
+- title:  Notch on random numbers
+  link:   https://twitter.com/notch/status/398355771454287872
+  tags:   [quote]
+  desc:   |
+          "Almost all integers are so large they're impossible to
+          express within any finite universe. So &laquo;pick a random
+          number&raquo; is quite dangerous."
