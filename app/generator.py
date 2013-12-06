@@ -8,6 +8,8 @@ from os.path import dirname, exists, join, realpath
 from shutil import rmtree
 
 from jinja2 import Template
+from markdown import markdown as render_markdown
+import typogrify.filters
 import yaml
 
 
@@ -28,6 +30,14 @@ for name in ['link', 'post', 'tag', 'tags']:
 class Link(object):
 
     def __init__(self, dct, post):
+        # render markdown
+        desc = dct.get('desc', None)
+        if desc:
+            dct['desc'] = improve_typography(render_markdown(desc))
+
+        # improve typography in title
+        dct['title'] = improve_typography(dct['title'])
+
         self._dct = dct
         self.tags = map(Tag, dct['tags'])
         self.tags.append(Tag('_post', post))
@@ -67,6 +77,14 @@ def get_posts():
     for i in xrange(1, len(names) - 1):
         next, date, prev = [names[i + j][:-len(ext)] for j in [-1, 0, 1]]
         yield Post(date, prev, next, join(POSTS_DIR, names[i]))
+
+
+def improve_typography(text):
+    text = typogrify.filters.widont(text)
+    text = typogrify.filters.smartypants(text)
+    text = text.replace('OS X', 'OS&nbsp;X')
+
+    return text
 
 
 def render(a1, a2=None):

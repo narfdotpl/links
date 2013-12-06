@@ -7,18 +7,39 @@
             https://github.com/narfdotpl/links
         -->
         <title>links</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="http://lab.narf.pl/naif.css/naif.min.css?9b2c8328" rel="stylesheet">
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700" rel="stylesheet">
+
         <link href="/static/style.css" rel="stylesheet">
+
         <link href="/feed" rel="alternate" title="Atom" type="application/atom+xml">
     </head>
     <body>
-        <div id="container">
-            <div id="nav">
-                <a href="/{{ latest }}" class="js-pjax">latest</a>
-                <span>&middot;</span>
-                <a href="/tags" class="js-pjax">tags</a>
-                <span>&middot;</span>
-                <a href="/feed">feed</a>
+        <div id="main-wrapper">
+            <br class="hidden-elsewhere">
+
+            <div class="row">
+                <div class="col60">
+                    <p>
+                        <b>links</b>
+                        collected by
+                        <a href="http://narf.pl/">Maciej&nbsp;Konieczny</a>
+                    </p>
+                </div>
+
+                <div class="col40">
+                    <p align="right">
+                        <a href="/{{ latest }}" class="js-pjax">latest</a>
+                        &middot;&nbsp;<a href="/tags" class="js-pjax">tags</a>
+                        &middot;&nbsp;<a href="/feed">feed</a>
+                    </p>
+                </div>
             </div>
+
+            <hr class="hidden-portrait hidden-landscape" style="margin-top: 0">
+            <hr class="hidden-elsewhere">
 
             <div id="content">
                 {{ inner }}

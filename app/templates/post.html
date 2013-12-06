@@ -1,14 +1,20 @@
-<div class="row">
-    <div class="col">
-        <h1>{{ post.date }}</h1>
-    </div>
-    <div class="col">
+<header class="centered">
+    <h1>
+        {{ post.date }}
+    </h1>
+
+    <p>
         {% if post.prev %}
             <a href="{{ post.prev }}" class="js-pjax unicode">&#x2190;</a>
+        {% endif %}
+
+        {% if post.prev and post.next %}
+            &middot;
         {% endif %}
 
         {% if post.next %}
             <a href="{{ post.next }}" class="js-pjax unicode">&#x2192;</a>
         {% endif %}
-    </div>
-</div>
+    </p>
+</header>
+

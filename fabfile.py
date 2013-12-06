@@ -32,8 +32,7 @@ def build():
 
     # css
     css = 'static/style.css'
-    in_app_dir('cp static-src/reset.css', css)
-    in_app_dir('sass static-src/style.sass >>', css)
+    in_app_dir('sass static-src/style.sass >', css)
 
 
 @task

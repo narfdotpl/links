@@ -1,4 +1,4 @@
-<div class="row link">
+<article>
     <div class="row">
         {# title #}
         <div class="col">
@@ -6,24 +6,28 @@
         </div>
 
         {# tags #}
-        <div class="col show-tags">
-            <a href="#" class="js-show-tags unicode">&hellip;</a>
+        <div class="col">
+            <a href="#" class="js-show-tags show-tags">&hellip;</a>
         </div>
-        <div class="col tags js-tags" style="display: none">
+
+        <div class="col js-tags" style="display: none">
             {% for tag in link.tags %}
                 {% if tag.name != current_tag_name %}
-                    {% if tag.name == '_post' %}
-                        <a href="{{ tag.url }}" class="js-pjax">&#x2261;</a>
-                    {% else %}
-                        <a href="{{ tag.url }}" class="js-pjax">{{ tag.name }}</a>
-                    {% endif %}
+                    <a href="{{ tag.url }}" class="js-pjax tag">
+                        {% if tag.name == '_post' %}
+                            &#x2261;
+                        {% else %}
+                            {{ tag.name }}
+                        {% endif %}
+                    </a>
                 {% endif %}
             {% endfor %}
         </div>
+
     </div>
 
     {# desc #}
     {% if link.desc %}
-        <div class="row desc">{{ link.desc }}</div>
+        {{ link.desc }}
     {% endif %}
-</div>
+</article>

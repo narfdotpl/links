@@ -1,114 +1,54 @@
-$line: 1.3em
+//-------------
+//  variables
+//-------------
 
-$white: #fff
-$bright: #aaa
-$brighter: #bbb
-$a-lot-brighter: #f0f0f0
-$normal: #333
-$dark: #000
-$blue: #00a
+// font size
+$line-height: 28px / 20px * 1em
 
+// responsiveness
+$portrait-width:   320px
+$landscape-width:  480px
 
-@mixin transition($property, $duration, $type)
-  -webkit-transition: $property $duration $type
-  -moz-transition: $property $duration $type
-  -o-transition: $property $duration $type
-  transition: $property $duration $type
+// colors
+$gray: #aaa
+$light-gray: #bbb
 
 
-html, body
-  height: 100%
+//---------
+//  style
+//---------
 
-
-body
-  background: $white
-  color: $normal
-  font:
-    family: monospace
-    size: 16px
-  line-height: $line
-
-
-h1
-  color: $dark
-  font-weight: bold
-
-
-a
-  color: $blue
-  text-decoration: none
-  &:hover
-    text-decoration: underline
-
-
-strong
-  color: $dark
-
+article
+    margin-bottom: $line-height
 
 .row
-  overflow: hidden
+    overflow: hidden
 
 .col
-  float: left
-  padding-left: 1em
-  &:first-child
-    padding-left: 0
+    float: left
+    padding-left: 1ex
+    &:first-child
+        padding-left: 0
 
+.tag
+    color: $gray
 
-table
-  margin-top: $line
+.show-tags
+    color: $light-gray
 
-  .bar
-    padding-left: 1.5em
-    color: $brighter
+.col40
+    width: 40%
+    float: left
 
+.col60
+    width: 60%
+    float: left
 
-#container
-  width: 48em
-  position: relative
-  padding: $line 1.5em
+.col40, .col60
+    @media (max-width: $landscape-width)
+        width: 100%
+        float: none
 
-
-#nav
-  position: absolute
-  right: 7em
-
-  a, span
-    color: $bright
-
-  & .ninja
-    color: $a-lot-brighter
-    @include transition(color, 1s, ease-in)
-
-    &:hover
-      color: $bright
-
-  &.ninja
-    a, span
-      color: $a-lot-brighter
-      @include transition(color, 0.3s, ease-in)
-
-    &:hover
-      a, span
-        color: $bright
-
-
-.blue
-  color: $blue
-
-
-.unicode
-  font-family: sans-serif
-
-
-.link
-  margin-top: $line
-
-  .tags a
-    color: $bright
-
-  .show-tags a
-    color: $brighter
-
-  .desc
-    white-space: pre
+.col40 p, .col60 p
+    @media (max-width: $landscape-width)
+        text-align: center
