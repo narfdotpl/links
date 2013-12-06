@@ -138,14 +138,20 @@ def _main():
 
                         tag_f.write(render(link, tag))
 
-    # create histogram bars for tags
-    tags = []
-    for name, count in tags_count.iteritems():
-        tags.append({'name': name, 'bar': '&middot;' * count})
+    # prepare to create a tag cloud
+    min_count = min(tags_count.itervalues())
+    max_count = max(tags_count.itervalues())
+    min_scale = 1
+    max_scale = 3
+    get_scale = lambda count: '%.2f' % \
+        (min_scale + (max_scale - min_scale) * \
+        (count - min_count) / (max_count - min_count))
 
-    # render tags list
-    tags.sort(key=lambda dct: (-len(dct['bar']), dct['name']))
-    render_and_write('tags.html', tags=tags)
+    # render tag cloud
+    render_and_write('tags.html', tags=[
+        {'name': tag, 'scale': get_scale(count)} \
+        for tag, count in sorted(tags_count.iteritems())
+    ])
 
     # render feed
     render_and_write('feed.xml', dates=dates)

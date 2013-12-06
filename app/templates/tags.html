@@ -2,15 +2,10 @@
     <h1>tags</h1>
 </header>
 
-<table>
+<p class="centered narrow">
     {% for tag in tags %}
-        <tr>
-            <td>
-                <a href="/tags/{{ tag.name }}" class="js-pjax">
-                    {{ tag.name }}
-                </a>
-            </td>
-            <td class="bar">{{ tag.bar }}</td>
-        </tr>
+        <a href="/tags/{{ tag.name }}" class="js-pjax" style="font-size: {{ tag.scale }}em">
+            {{ tag.name }}
+        </a>
     {% endfor %}
-</table>
+</p>
