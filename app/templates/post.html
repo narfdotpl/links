@@ -5,15 +5,17 @@
 
     <p>
         {% if post.prev %}
-            <a href="{{ post.prev }}" class="js-pjax unicode">&#x2190;</a>
+            <a href="{{ post.prev }}" class="js-pjax unicode">←</a>
+        {% else %}
+            ×
         {% endif %}
 
-        {% if post.prev and post.next %}
-            &middot;
-        {% endif %}
+        ·
 
         {% if post.next %}
-            <a href="{{ post.next }}" class="js-pjax unicode">&#x2192;</a>
+            <a href="{{ post.next }}" class="js-pjax unicode">→</a>
+        {% else %}
+            ×
         {% endif %}
     </p>
 </header>

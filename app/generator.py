@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-from __future__ import division
+from __future__ import absolute_import, division
 from collections import defaultdict
 from os import listdir, mkdir
 from os.path import dirname, exists, join, realpath
@@ -11,6 +11,8 @@ from jinja2 import Template
 from markdown import markdown as render_markdown
 import typogrify.filters
 import yaml
+
+from common import open
 
 
 # set paths

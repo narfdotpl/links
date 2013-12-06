@@ -1,13 +1,15 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-from __future__ import division
+from __future__ import absolute_import, division
 from functools import wraps
 from os import listdir
 from os.path import dirname, join, realpath
 
 from flask import Flask, make_response, redirect, request
 from jinja2 import Template
+
+from common import open
 
 
 # set file system paths
