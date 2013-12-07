@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-from __future__ import absolute_import, division
+from __future__ import division
 from functools import wraps
 from os import listdir
 from os.path import dirname, join, realpath
