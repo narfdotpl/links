@@ -7,6 +7,7 @@ from os import listdir, mkdir
 from os.path import dirname, exists, join, realpath
 from shutil import rmtree
 
+from bs4 import BeautifulSoup
 from jinja2 import Template
 from markdown import markdown as render_markdown
 import typogrify.filters
@@ -96,15 +97,30 @@ def render(a1, a2=None):
     if isinstance(a1, Link):
         kw['current_tag_name'] = a2.name if a2 else '_post'
 
-    return templates[name].render(kw)
+    html = templates[name].render(kw)
+    html = strip_whitespace_from_links(html)
+
+    return html
 
 
 def render_and_write(filename, **kw):
     with open(join(TEMPLATES_DIR, filename)) as f:
         template = Template(f.read())
 
+    html = template.render(kw)
+    html = strip_whitespace_from_links(html)
+
     with open(join(BUILD_DIR, filename), 'w') as f:
-        f.write(template.render(kw))
+        f.write(html)
+
+
+def strip_whitespace_from_links(html):
+    soup = BeautifulSoup(html)
+
+    for link in soup.find_all('a'):
+        link.string = link.string.strip()
+
+    return unicode(soup)
 
 
 def _main():
