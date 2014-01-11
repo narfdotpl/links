@@ -29,18 +29,3 @@ $('.js-tags').live 'hover', (ev) ->
         wait 4000, ->
             if not $elem.data('lock')
                 $elem.fadeOut(300).prev().delay(300).fadeIn(300)
-
-# hide nav
-$ ->
-    timeFor = (i) -> 2500 + 300 * i
-
-    $nav = $('#nav')
-    $elems = $('a, span', $nav)
-
-    $elems.each (i, elem) ->
-        wait timeFor(i), ->
-            $(elem).addClass('ninja')
-
-    wait timeFor($elems.length) + 1000, ->
-        $nav.addClass('ninja').find('a, span').each ->
-            $(@).removeClass('ninja')
