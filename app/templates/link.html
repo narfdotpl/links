@@ -13,7 +13,7 @@
         <div class="col js-tags" style="display: none">
             {% for tag in link.tags %}
                 {% if tag.name != current_tag_name %}
-                    <a href="{{ tag.url }}" class="js-pjax tag">
+                    <a href="{{ tag.url }}" class="tag">
                         {% if tag.name == '_post' %}
                             &#x2261;
                         {% else %}

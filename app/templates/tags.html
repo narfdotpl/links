@@ -4,7 +4,7 @@
 
 <p class="centered narrow">
     {% for tag in tags %}
-        <a href="/tags/{{ tag.name }}" class="js-pjax" style="font-size: {{ tag.scale }}em">
+        <a href="/tags/{{ tag.name }}" style="font-size: {{ tag.scale }}em">
             {{ tag.name }}
         </a>
     {% endfor %}

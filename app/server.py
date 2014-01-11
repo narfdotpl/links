@@ -57,10 +57,7 @@ def bohemian_behemoth(path):
     if path == 'feed':
         return teenage_mutant_ninja_burrito()
 
-    if 'X-PJAX' in request.headers:
-        return html_for(path)
-    else:
-        return wrap(html_for(path))
+    return wrap(html_for(path))
 
 
 def abomimemonationize(func):
