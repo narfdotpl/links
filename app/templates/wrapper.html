@@ -12,22 +12,23 @@
         <link href="http://lab.narf.pl/naif.css/naif.min.css?9b2c8328" rel="stylesheet">
         <link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700" rel="stylesheet">
 
-        <link href="/static/style.css" rel="stylesheet">
+        <link href="/static/style.css?932240df" rel="stylesheet">
 
         <link href="/feed" rel="alternate" title="Atom" type="application/atom+xml">
     </head>
     <body>
         <div id="main-wrapper">
-            <br class="hidden-elsewhere">
+            <div id="content">
+                {{ inner }}
+            </div>
+
+            <hr>
 
             <div class="row">
                 <div class="col60">
                     <p>
-                        <b>links</b>
-                        collected by
-
+                        links collected by
                         <br class="hidden-elsewhere">
-
                         <a href="http://narf.pl/">Maciej&nbsp;Konieczny</a>
                     </p>
                 </div>
@@ -39,13 +40,6 @@
                         &middot;&nbsp;<a href="/feed">feed</a>
                     </p>
                 </div>
-            </div>
-
-            <hr class="hidden-portrait hidden-landscape" style="margin-top: 0">
-            <hr class="hidden-elsewhere">
-
-            <div id="content">
-                {{ inner }}
             </div>
         </div>
 
