@@ -4,7 +4,7 @@
 
 - title:  XVim
   link:   https://github.com/JugglerShu/XVim
-  tags:   [ios, vim]
+  tags:   [ios, vim, solution]
   desc:   |
           a Vim plugin for Xcode
 

@@ -1,0 +1,48 @@
+- title:  The Birth & Death Of JavaScript
+  link:   https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript
+  tags:   [talk]
+  desc:   |
+          talk by Gary Bernhardt
+
+- title:  A Whole New World
+  link:   https://www.destroyallsoftware.com/talks/a-whole-new-world
+  tags:   [talk]
+  desc:   |
+          talk by Gary Bernhardt
+
+- title:  Boundaries
+  link:   https://www.destroyallsoftware.com/talks/boundaries
+  tags:   [talk]
+  desc:   |
+          talk by Gary Bernhardt
+
+- title:  Gary Bernhardt on The Setup
+  link:   http://gary.bernhardt.usesthis.com/
+  tags:   [interview]
+
+- title:  Xcode Plugins
+  link:   http://nshipster.com/xcode-plugins/
+  tags:   [ios, solution]
+
+- title:  Fuzzy Autocomplete for Xcode
+  link:   https://github.com/FuzzyAutocomplete/FuzzyAutocompletePlugin
+  tags:   [ios, solution]
+
+- title:  World Airports Voronoi
+  link:   https://www.jasondavies.com/maps/voronoi/airports/
+  tags:   [visualization]
+
+- title:  Hello Internet
+  link:   http://www.hellointernet.fm/
+  tags:   [podcast]
+  desc:   |
+          "Conversations between CGP Grey and Brady Haran."
+
+- title:  Write Code Every Day
+  link:   http://ejohn.org/blog/write-code-every-day/
+  tags:   [reading]
+  desc:   |
+          "I'm nearing 20 weeks of consecutive work. I wanted to write about it
+          as it's completely changed how I code and has had a substantial
+          impact upon my life and psyche."
+
