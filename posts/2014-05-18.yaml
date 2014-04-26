@@ -1,0 +1,48 @@
+- title:  |
+          Hearthstone: Heroes of Warcraft
+  link:   http://battle.net/hearthstone/
+  tags:   [ios, game]
+  desc:   |
+          Blizzard's card game for iPad, OS X, and Windows
+
+- title:  Ferrari 250 GTO
+  link:   http://www.petrolicious.com/driving-this-ferrari-gto-is-a-certain-kind-of-ecstasy
+  tags:   [car, video]
+
+- title:  Our Comrade the Electron
+  link:   http://vimeo.com/92522645
+  tags:   [talk]
+  desc:   |
+          talk by Maciej Cegłowski
+
+- title:  Building Paper
+  link:   https://www.youtube.com/watch?v=OiY1cheLpmI
+  tags:   [ios, talk]
+  desc:   |
+          talk by Facebook Paper team
+
+- title:  Preemptive commit comments
+  link:   http://arialdomartini.wordpress.com/2012/09/03/pre-emptive-commit-comments/
+  tags:   [reading]
+  desc:   |
+          > "Fixed Gitk and Git Gui" [...] is of much less significance
+          > of something like "When the history is over 10k commits, it
+          > does not crash trying to display it with Gitk".
+
+- title:  What it's like to own a Tesla Model S
+  link:   http://theoatmeal.com/comics/tesla_model_s
+  tags:   [car, comics]
+  desc:   |
+          review by The Oatmeal
+
+- title:  Infinite Stairs and Dissected Buildings
+  link:   http://tumblr.inky.me/post/85929101443
+  tags:   [aesthetics]
+  desc:   |
+          drawings by Marcin Białas
+
+- title:  Blek
+  link:   http://blekgame.com/
+  tags:   [ios, game]
+  desc:   |
+          artistic puzzle game for iPad
