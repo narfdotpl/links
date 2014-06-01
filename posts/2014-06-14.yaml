@@ -1,0 +1,56 @@
+- title:  Swift
+  link:   https://developer.apple.com/swift/
+  tags:   [ios]
+  desc:   |
+          programming language designed by Apple to replace Objective-C
+
+- title:  New Territory
+  link:   http://www.marco.org/2014/06/06/new-territory
+  tags:   [ios, reading]
+  desc:   |
+          "It's a great time to be an iOS developer."
+
+- title:  ReactiveCocoa Developer Conference
+  link:   http://vimeo.com/album/2916562
+  tags:   [ios, talk]
+  desc:   |
+          talks and panel Q&A from RACDC 2014
+
+- title:  iOS 8 randomises the MAC address
+  link:   https://twitter.com/FredericJacobs/status/475601665836744704
+  tags:   [ios]
+  desc:   |
+          while scanning for WiFi networks
+
+- title:  GMUNK
+  link:   http://work.gmunk.com/
+  tags:   [aesthetics]
+
+- title:  Maciej Kuciara
+  link:   http://kuciara.com/
+  tags:   [aesthetics]
+
+- title:  The Collective
+  link:   https://soundcloud.com/the-collective-podcast/the-collective-ep-12-maciej
+  tags:   [podcast]
+  desc:   |
+          podcast hosted by Ash Thorp
+
+- title:  Seeing Spaces
+  link:   http://vimeo.com/97903574
+  tags:   [talk]
+  desc:   |
+          talk by Bret Victor
+
+- title:  The greatest engineer
+  link:   http://abstrusegoose.com/571
+  tags:   [comics]
+
+- title:  |
+          NFL players: height and weight over time
+  link:   http://noahveltman.com/nflplayers/
+  tags:   [visualization]
+
+- title:  Fish
+  link:   http://xkcd.com/1377/
+  tags:   [space, comics]
