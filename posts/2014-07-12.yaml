@@ -1,0 +1,53 @@
+- title:  Swift Blog
+  link:   https://developer.apple.com/swift/blog/
+  tags:   [ios, swift]
+  desc:   |
+          a blog by Apple
+
+- title:  Swift In Flux
+  link:   https://github.com/ksm/SwiftInFlux
+  tags:   [ios, swift]
+  desc:   |
+          "attempt to gather the Swift features that are still in flux and
+          likely to change"
+
+- title:  The Lego Movie
+  link:   http://en.wikipedia.org/wiki/The_Lego_Movie
+  tags:   [film]
+  desc:   |
+          "Everything is awesome!"
+
+- title:  Cager On Two Wheels
+  link:   https://www.youtube.com/user/CagerOnTwoWheels
+  tags:   [motorcycle, video]
+  desc:   |
+          motorcycle reviews from a lovable Portuguese
+
+- title:  Surface Area
+  link:   http://xkcd.com/1389/
+  tags:   [space, comics, visualization]
+  desc:   |
+          "The Solar System's solid surfaces stitched together"
+
+- title:  Hasklig
+  link:   https://github.com/i-tu/Hasklig
+  tags:   [haskell, typo]
+  desc:   |
+          "a Haskell code font with monospaced ligatures"
+
+- title:  Fish & Chips
+  link:   http://i.imgur.com/Sxt61Z0.jpg
+  tags:   [typo, aesthetics]
+
+- title:  Khan Academy Offer Acceptance Toy
+  link:   https://github.com/andymatuschak/Khan-Academy-Offer-Acceptance-Toy
+  tags:   [ios]
+  desc:   |
+          "The night before I had promised Khan Academy an answer, I realized
+          that a simple phone call seemed anticlimactic. So I stayed up all
+          night to make this silly thing instead. I sent them an empty email
+          the next morning with this code attached."
+
+- title:  We go forward
+  link:   http://owlturd.com/post/91042216689/we-go-forward-image-twitter-facebook
+  tags:   [comics]
