@@ -1,0 +1,59 @@
+- title:  |
+          p5.js: hello
+  link:   http://hello.p5js.org/
+  tags:   [visualization, video]
+  desc:   |
+          Interactive introductory video to "a JavaScript library that starts
+          with the original goal of Processing, to make coding accessible for
+          artists, designers, educators, and beginners, and reinterprets this
+          for today's web".
+
+- title:  |
+          The Visual Microphone: Passive Recovery of Sound from Video
+  link:   http://people.csail.mit.edu/mrub/VisualMic/
+  tags:   [video]
+  desc:   |
+          "When sound hits an object, it causes small vibrations of the
+          object’s surface. We show how, using only high-speed video of the
+          object, we can extract those minute vibrations and partially recover
+          the sound that produced them, allowing us to turn everyday objects—a
+          glass of water, a potted plant, a box of tissues, or a bag of
+          chips—into visual microphones."
+
+- title:  typo
+  link:   https://github.com/seliopou/typo
+  tags:   [haskell]
+  desc:   |
+          "Typo is a programming language that runs in Haskell's type system. A
+          Typo program is compiled to a Haskell module that's then typechecked
+          to compute the result. All computation happens in Haskell's type
+          system."
+
+          "This is the first programming language to be publicly released from
+          a plane flying over the Atlantic Ocean. I'm almost certain of that."
+
+- title:  ID
+  link:   http://vimeo.com/84157014
+  tags:   [aesthetics, video]
+  desc:   |
+          "A geometric audio-reactive visualization using diptych format in
+          various ways. Originally showcased with two projectors on a diptych
+          setting."
+
+- title:  Reverse OCR
+  link:   http://reverseocr.tumblr.com/
+  tags:   [aesthetics]
+  desc:   |
+          "I am a bot that grabs a random word and draws semi-random lines
+          until the OCRad.js library recognizes it as the word."
+
+- title:  Djent
+  link:   http://www.last.fm/tag/djent
+  tags:   [music]
+  desc:   |
+          "[Djent is] the onomatopoeia of a heavily palm muted distorted
+          guitar chord which is usually played as but not limited to a 4
+          string double octave powerchord, and as a result sounds much more
+          metallic and sonically present than a 'chug', 'chugga' or 'djun'
+          per se, and which is basically how Periphery would describe its
+          palm muted guitar sound."
