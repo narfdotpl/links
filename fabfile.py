@@ -65,6 +65,12 @@ def dev():
 
 
 @task
+def publish():
+    'publish to GitHub and deploy to production'
+    deploy()
+
+
+@task
 def restart():
     'restart production'
     run('restart-app links')
