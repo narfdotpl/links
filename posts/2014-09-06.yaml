@@ -1,0 +1,48 @@
+- title:  Analog(ue)
+  link:   http://relay.fm/analogue
+  tags:   [podcast]
+  desc:   |
+          a new podcast by Myke Hurley and Casey Liss where they talk about
+          feelings
+
+- title:  My little piece of privacy
+  link:   https://www.youtube.com/watch?v=rKhbUjVyKIc
+  tags:   [video, music]
+  desc:   |
+          timeless classic with great music
+
+- title:  Type-safe URL routes in Swift
+  link:   http://chris.eidhof.nl/posts/typesafe-url-routes-in-swift.html
+  tags:   [swift]
+
+- title:  Swift Style Guide
+  link:   https://github.com/github/swift-style-guide
+  tags:   [swift]
+  desc:   |
+          from GitHub guys
+
+- title:  WTF is... Magicka?
+  link:   https://www.youtube.com/watch?v=g_XP9OBWGKo
+  tags:   [game]
+  desc:   |
+          excellent game, worth borrowing a Windows machine
+
+- title:  Brammo Empulse R
+  link:   https://www.youtube.com/watch?v=Gj3hx2vtEH8
+  tags:   [motorcycle]
+  desc:   |
+          review in three parts
+
+- title:  variable
+  link:   http://variable.io/
+  tags:   [visualization]
+  desc:   |
+          "is a new generative design studio in London"
+
+- title:  Tweetable Mathematical Art
+  link:   http://codegolf.stackexchange.com/questions/35569/tweetable-mathematical-art
+  tags:   [aesthetics]
+
+- title:  Query
+  link:   http://xkcd.com/1409/
+  tags:   [comics]
