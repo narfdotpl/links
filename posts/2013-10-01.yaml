@@ -47,7 +47,7 @@
 
 - title:  CCC breaks Touch ID
   link:   http://www.ccc.de/en/updates/2013/ccc-breaks-apple-touchid
-  tags:   [ios]
+  tags:   [ios, security]
   desc:   |
           "It is plain stupid to use something that you can't change and
           that you leave everywhere every day as a security token."

@@ -1,6 +1,6 @@
 - title:  keychain
   link:   http://github.com/funtoo/keychain
-  tags:   [tool]
+  tags:   [security, tool]
   desc:   |
           "Manage ssh and GPG keys in a convenient and secure manner. [...]
           You only need to enter a passphrase once every time your local

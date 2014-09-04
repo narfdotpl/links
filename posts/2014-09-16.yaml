@@ -1,0 +1,50 @@
+- title:  I'm leaving Mojang
+  link:   http://notch.net/2014/09/im-leaving-mojang/
+  tags:   [notch, gamedev]
+
+- title:  Kutiman - Give It Up
+  link:   https://www.youtube.com/watch?v=WoHxoz_0ykI
+  tags:   [music]
+  desc:   |
+          music composed of unrelated YouTube videos
+
+- title:  Functional Programming in Swift
+  link:   http://realm.io/news/functional-programming-swift-chris-eidhof/
+  tags:   [swift, talk]
+  desc:   |
+          talk by Chris Eidhof
+
+- title:  Tabnabbing
+  link:   http://www.azarask.in/blog/post/a-new-type-of-phishing-attack/
+  tags:   [security]
+  desc:   |
+          a new type of phishing attack
+
+- title:  Why Semantic Versioning Isn't
+  link:   https://gist.github.com/jashkenas/cbd2b088e20279ae2c8e
+  tags:   [reading]
+  desc:   |
+          "SemVer tries to compress a huge amount of information — the nature
+          of the change, the percentage of users that will be affected by the
+          change, the severity of the change (Is it easy to fix my code? Or do
+          I have to rewrite everything?) — into a single number. And
+          unsurprisingly, it's impossible for that single number to contain
+          enough meaningful information."
+
+- title:  HOUT
+  link:   https://vimeo.com/103583307
+  tags:   [video]
+
+- title:  Moments In Asia
+  link:   https://vimeo.com/104330259
+  tags:   [aesthetics, video]
+
+- title:  Lowside
+  link:   http://www.dumpert.nl/mediabase/6616971/b20aff42/wat_ducttape_en_tie_wraps.html
+  tags:   [alternative-physics, motorcycle, video]
+  desc:   |
+          alternative physics
+
+- title:  Unnecessary Explosions
+  link:   http://imgur.com/a/yWxIx
+  tags:   [else]
