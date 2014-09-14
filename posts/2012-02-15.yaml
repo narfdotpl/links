@@ -15,7 +15,7 @@
 
 - title:  wat
   link:   https://www.destroyallsoftware.com/talks/wat
-  tags:   [talk]
+  tags:   [gary-bernhardt, talk]
   desc:   |
           > Array(16).join("wat" - 1) + " Batman!"
 
