@@ -1,0 +1,47 @@
+- title:  Black Mirror
+  link:   http://en.wikipedia.org/wiki/Black_Mirror_(TV_series)
+  tags:   [film]
+  desc:   |
+          "A British television anthology series created by Charlie Brooker
+          that shows the dark side of life and technology."
+
+          I recommend episodes s1e3 and s2e1.
+
+- title:  Lonely The Brave - Victory Line
+  link:   https://www.youtube.com/watch?v=g-D_4erfsVQ
+  tags:   [music, video]
+
+- title:  Adobe Logo Remix vs GMUNK
+  link:   https://vimeo.com/102437177
+  tags:   [aesthetics, video]
+
+- title:  |
+          Defocused 7: A Constant Sense of Achievement
+  link:   http://defocused.co/defocused/ep-7-a-constant-sense-of-achievement-with-myke-hurley.html
+  tags:   [comics, podcast]
+  desc:   |
+          Myke Hurley discusses Scott Pilgrim with Joe Steel and Dan Sturm
+
+- title:  ComicFlow
+  link:   https://itunes.apple.com/us/app/comicflow/id409290355?mt=8
+  tags:   [comics, ios]
+  desc:   |
+          for reading comics on an iPad
+
+- title:  Kindle Comic Converter
+  link:   http://kcc.iosphe.re/
+  tags:   [comics]
+  desc:   |
+          for reading comics on a Kindle
+
+- title:  Dark Mode As iOS Accessibility Feature
+  link:   http://www.cgpgrey.com/blog/dark-mode-as-accessibility-feature
+  tags:   [ios]
+
+- title:  Configuring Vim for SICP
+  link:   http://crash.net.nz/posts/2014/08/configuring-vim-for-sicp/
+  tags:   [vim, lisp]
+
+- title:  HTML5/EPUB3 version of SICP
+  link:   http://sarabander.github.io/sicp/
+  tags:   [lisp]
