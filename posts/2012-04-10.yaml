@@ -1,6 +1,6 @@
 - title:  The Future of Python HTTP
   link:   http://kennethreitz.com/the-future-of-python-http.html
-  tags:   [python]
+  tags:   [python, kenneth-reitz]
   desc:   |
           "In Requests, you'll be able to mount external services to the
           routing mechanism by mocking HTTP. To Requests, it'll be an HTTP
