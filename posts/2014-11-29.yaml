@@ -1,0 +1,42 @@
+- title:  |
+          Radiolab: Translation
+  link:   http://www.radiolab.org/story/translation/
+  tags:   [podcast]
+
+- title:  |
+          Monument Valley: Forgotten Shores
+  link:   https://www.youtube.com/watch?v=Me4ymG_vnOE
+  tags:   [ios, game, aesthetics]
+
+- title:  Making of Monument Valley in Unity
+  link:   https://www.youtube.com/watch?v=mCCC9hQm6MM
+  tags:   [gamedev, talk]
+  desc:   |
+          talk by Peter Pashley
+
+- title:  |
+          Inquisitive 14: Building Monument Valley
+  link:   http://www.relay.fm/inquisitive/14
+  tags:   [gamedev, podcast, interview]
+  desc:   |
+          interview with Daniel Gray
+
+- title:  Carthage
+  link:   https://github.com/Carthage/Carthage
+  tags:   [ios, swift, solution]
+  desc:   |
+          alternative to CocoaPods created by the GitHub team
+
+- title:  Visualizing Algorithms
+  link:   https://vimeo.com/112319901
+  tags:   [visualization, talk]
+  desc:   |
+          talk by Mike Bostock
+
+- title:  Unified approach to grown structures
+  link:   https://www.youtube.com/watch?v=9HI8FerKr6Q
+  tags:   [visualization, aesthetics, video]
+
+- title:  SOLUS
+  link:   https://vimeo.com/112361221
+  tags:   [space, aesthetics, video]
