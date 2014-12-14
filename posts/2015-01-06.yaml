@@ -1,0 +1,56 @@
+- title:  |
+          Up Up Down Down 22: Games Are Things Made By People
+  link:   http://www.upup.fm/show/games-are-things-made-by-people/
+  tags:   [gamedev, interview, podcast]
+  desc:   |
+          interview with Adam "Atomic" Saltsman
+
+- title:  The Guardian Tech Weekly 2014-12-17
+  link:   http://www.theguardian.com/technology/audio/2014/dec/17/darius-kazemi-bot-tech-weekly-podcast
+  tags:   [podcast, interview]
+  desc:   |
+          interview with Darius Kazemi starts at 27:10
+
+- title:  Extrapolated Art
+  link:   http://extrapolated-art.com/
+  tags:   [aesthetics]
+  desc:   |
+          "New techniques in machine learning and image processing allow us to
+          extrapolate the scene of a painting to see what the full scenery
+          might have looked like."
+
+- title:  Pixel Shaders
+  link:   http://pixelshaders.com/
+  tags:   [gamedev, reading, hci]
+  desc:   |
+          "a proposal and proof-of-concept for an interactive book about
+          programming the graphics processor"
+
+          I especially enjoyed the little "Make this" games in the
+          Sample Chapter.
+
+- title:  Phantom Types
+  link:   http://www.objc.io/snippets/13.html
+  tags:   [swift]
+  desc:   |
+          "Suppose your application revolves around file handles, and you want
+          to be sure that you never try to perform any write operations on a
+          file handle that’s open for reading."
+
+- title:  Squares
+  link:   http://selfcoded.com/squares/
+  tags:   [ios, game]
+  desc:   |
+          "a challenging puzzle game for iPhone, iPod Touch and iPad"
+
+- title:  The evolution of the Nintendo controller in 1 hypnotic GIF
+  link:   http://mashable.com/2014/12/16/nintendo-controller-evolution-gif/
+  tags:   [game, hci]
+
+- title:  FLRN GIF
+  link:   http://flrngif.tumblr.com/
+  tags:   [aesthetics]
+
+- title:  Reliant Robin in Monza(?)
+  link:   https://www.youtube.com/watch?v=Atrll2yr8Ds
+  tags:   [game, video, alternative-physics]
