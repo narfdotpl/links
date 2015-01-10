@@ -6,18 +6,18 @@
 - title:  |
           Monument Valley: Forgotten Shores
   link:   https://www.youtube.com/watch?v=Me4ymG_vnOE
-  tags:   [ios, game, aesthetics]
+  tags:   [ios, game, aesthetics, monument-valley]
 
 - title:  Making of Monument Valley in Unity
   link:   https://www.youtube.com/watch?v=mCCC9hQm6MM
-  tags:   [gamedev, talk]
+  tags:   [gamedev, talk, monument-valley]
   desc:   |
           talk by Peter Pashley
 
 - title:  |
           Inquisitive 14: Building Monument Valley
   link:   http://www.relay.fm/inquisitive/14
-  tags:   [gamedev, podcast, interview]
+  tags:   [gamedev, podcast, interview, monument-valley]
   desc:   |
           interview with Daniel Gray
 
