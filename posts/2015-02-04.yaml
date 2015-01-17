@@ -1,0 +1,33 @@
+- title:  Functioning as a Functionalist
+  link:   https://www.youtube.com/watch?v=rJosPrqBqrA
+  tags:   [swift, talk]
+  desc:   |
+          talk by Andy Matuschak
+
+- title:  Introducing React Native
+  link:   https://www.youtube.com/watch?v=KVZ-P-ZI6W4
+  tags:   [react, ios, talk]
+  desc:   |
+          React.js Conf 2015 Keynote
+
+- title:  A Deep Dive into React Native
+  link:   https://www.youtube.com/watch?v=7rDsRXj9-cU
+  tags:   [react, ios, talk]
+  desc:   |
+          React.js Conf 2015 Keynote 2
+
+- title:  Why React Native Matters
+  link:   http://joshaber.github.io/2015/01/30/why-react-native-matters/
+  tags:   [react, ios]
+  desc:   |
+          "JavaScript is an implementation detail."
+
+- title:  React Hot Loader
+  link:   http://gaearon.github.io/react-hot-loader/
+  tags:   [react, video]
+  desc:   |
+          watch the video, play with the demo
+
+- title:  Monsters
+  link:   http://english.bouletcorp.com/2015/01/12/monsters/
+  tags:   [comics]
