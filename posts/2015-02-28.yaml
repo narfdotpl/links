@@ -1,0 +1,44 @@
+- title:  Ra
+  link:   http://qntm.org/ra
+  tags:   [book]
+  desc:   |
+          Science fiction novel / series of blog posts.
+          I'm at 35% and I like it very much.
+
+- title:  Debug 61
+  link:   http://www.imore.com/debug-61-andy-matuschak-and-khan-academy
+  tags:   [andy-matuschak, ios, podcast, interview]
+  desc:   |
+          interview with Andy Matuschak
+
+- title:  Functional Geekery 11
+  link:   http://www.functionalgeekery.com/episode-11-simon-peyton-jones/
+  tags:   [haskell, podcast, interview]
+  desc:   |
+          interview with Simon Peyton Jones
+
+- title:  Beautiful pull-to-refresh interaction
+  link:   https://www.behance.net/gallery/20411445/Mobile-Animations-Interactions
+  tags:   [hci, aesthetics]
+
+- title:  Getting the right colors in your iOS app
+  link:   http://inaka.net/blog/2014/09/05/getting-the-right-colors-in-your-ios-app/
+  tags:   [ios, solution]
+  desc:   |
+          > 1. Pick the RGB values with DigitalColor Meter with Display
+          >    in sRGB.
+          >
+          > 2. Apply those RGB values in Xcode IB (or by code) using
+          >    Generic RGB.
+
+- title:  The Gaeneviad
+  link:   http://english.bouletcorp.com/2015/02/02/24-hours-comic-the-gaeneviad/
+  tags:   [comics]
+
+- title:  Notch on being relatable
+  link:   https://twitter.com/notch/status/568701702771228672
+  tags:   [notch, quote]
+  desc:   |
+          "I'm relatable because I seem shy and chubby and good hearted
+          and there's absolutely nothing sinister about me at all as far
+          as you know."
