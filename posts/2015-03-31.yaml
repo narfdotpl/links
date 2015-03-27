@@ -1,0 +1,53 @@
+- title:  |
+          Radiolab: Los Frikis
+  link:   http://www.radiolab.org/story/los-frikis/
+  tags:   [podcast]
+
+- title:  The Dictionary of Obscure Sorrows
+  link:   https://www.youtube.com/user/obscuresorrows
+  tags:   [video]
+  desc:   |
+          "[...] a compendium of invented words written by John Koenig. Each
+          original definition aims to fill a hole in the language—to give a
+          name to emotions we all might experience but don’t yet have a word
+          for."
+
+- title:  Sundays
+  link:   https://vimeo.com/122325664
+  tags:   [film]
+  desc:   |
+          "What if I don't dream at night?"
+
+- title:  Debug 63
+  link:   http://www.imore.com/debug-63-workflow-interview
+  tags:   [ios, interview, podcast]
+  desc:   |
+          Interview with the Workflow team.  Kids these days...
+
+- title:  Protocols and Generics
+  link:   http://airspeedvelocity.net/2015/03/26/protocols-and-generics-2/
+  tags:   [swift]
+
+- title:  Minimal Maps
+  link:   http://www.michaelpecirno.com/minimal-maps
+  tags:   [visualization, aesthetics]
+  desc:   |
+          "[...] an ongoing project that explores how richly-detailed single
+          subject maps can give us new imagery to understand our landscape"
+
+- title:  Textures.js
+  link:   http://riccardoscalco.github.io/textures/
+  tags:   [visualization]
+  desc:   |
+          "SVG patterns for Data Visualization"
+
+- title:  Opportunity
+  link:   http://xkcd.com/1504/
+  tags:   [space, comics]
+
+- title:  |
+          "My Sister Sharpied My Motorcycle Helmet"
+  link:   http://www.reddit.com/r/motorcycles/comments/30fzd5/my_sister_sharpied_my_motorcycle_helmet/
+  tags:   [motorcycle, aesthetics]
+  desc:   |
+          Bandicoot! \m/
