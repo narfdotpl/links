@@ -1,0 +1,44 @@
+- title:  Mac app wrapper around Facebook's stand-alone Messenger
+  link:   https://github.com/rsms/fb-mac-messenger
+  tags:   [solution]
+  desc:   |
+          Also: wow, I didn't know messenger.com existed!
+
+- title:  Humane Design
+  link:   https://www.youtube.com/watch?v=GArkyxP8-n0
+  tags:   [gamedev, video]
+  desc:   |
+          "Humane design doesn't use guilt as a motivator.  It doesn't
+          punish you for having something more important to do on a given
+          day."
+
+- title:  Increasing Performance by Reducing Dynamic Dispatch
+  link:   https://developer.apple.com/swift/blog/?id=27
+  tags:   [swift]
+  desc:   |
+          "The `final` keyword [...] indicates that the declaration cannot
+          be overridden. This allows the compiler to safely elide dynamic
+          dispatch indirection. [...] [T]he `private` keyword [...] allows
+          [...] to infer the `final` keyword automatically [...] Whole Module
+          Optimization [...] allows to [...] infer `final` on declarations
+          with `internal` [...]"
+
+- title:  Git Large File Storage
+  link:   https://github.com/blog/1986-announcing-git-large-file-storage-lfs
+  tags:   [git, solution]
+  desc:   |
+          "a new, open source extension that replaces large files with text
+          pointers inside Git, while storing the file contents on a remote
+          server like GitHub.com"
+
+- title:  Naming Schemes
+  link:   http://namingschemes.com/
+  tags:   [solution]
+
+- title:  FZ-09 rider portrait
+  link:   http://www.reddit.com/r/motorcycles/comments/343o97/i_made_a_portrait_my_friend_and_his_fz09_but_not/
+  tags:   [motorcycle, aesthetics]
+
+- title:  CD Shattering at 170k FPS
+  link:   https://www.youtube.com/watch?v=zs7x1Hu29Wc
+  tags:   [video, trivia]
