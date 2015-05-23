@@ -1,0 +1,52 @@
+- title:  Zero-Cost Abstractions
+  link:   https://realm.io/news/swift-summit-airspeed-velocity-zero-cost-abstractions/
+  tags:   [swift, talk]
+  desc:   |
+          talk by Airspeed Velocity
+
+- title:  |
+          Extra Credits: Rust
+  link:   https://www.youtube.com/watch?v=eh1zfdUTqBY
+  tags:   [gamedev, video]
+  desc:   |
+          Representing Race in Games
+
+- title:  Isochrone Maps of Europe
+  link:   http://emptypipes.org/2015/05/20/europe-isochrone-map/
+  tags:   [visualization]
+  desc:   |
+          "how long one would expect to travel to any point in Europe
+          starting in *x*, using only trains and walking"
+
+          I especially like the use of the
+          [cubehelix](http://astron-soc.in/bulletin/11June/289392011.pdf)
+          color palette, which "prints as a monotonically increasing
+          greyscale on black and white postscript devices".
+
+- title:  Semi-Permanent 2015 Opening Titles
+  link:   https://vimeo.com/129051743
+  tags:   [video, aesthetics]
+  desc:   |
+          "This video has been rather hastily put together..."
+
+- title:  Cortex
+  link:   http://www.relay.fm/cortex
+  tags:   [podcast]
+  desc:   |
+          a new podcast from CGP Grey and Myke Hurley who talk about
+          getting work done
+
+- title:  Reconcilable Differences
+  link:   http://www.relay.fm/rd
+  tags:   [podcast]
+  desc:   |
+          a new podcast from John Siracusa and Merlin Mann who
+          "try to figure out exactly how they got this way"
+
+- title:  C H R O M O
+  link:   https://vimeo.com/118631899
+  tags:   [video, aesthetics]
+
+- title:  Nico Rosberg lock up and sparks
+  link:   http://www.reddit.com/r/formula1/comments/36z85o/nico_rosberg_lock_up_and_sparks_30001862/
+  tags:   [formula-1, aesthetics]
