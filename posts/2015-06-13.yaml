@@ -1,0 +1,49 @@
+- title:  |
+          Google ATAP: Project Soli
+  link:   https://www.youtube.com/watch?v=0QNiZfSsPc0
+  tags:   [hci, video]
+  desc:   |
+          "a new interaction sensor using radar technology"
+
+- title:  Land's End
+  link:   http://www.polygon.com/a/the-race-for-vr/land-s-end-a-vr-game-from-the-team-behind-monument-valley
+  tags:   [gamedev, monument-valley]
+  desc:   |
+          "A lot of the camera movements and controls that video games have
+          built up over the years will make many players want to throw up.
+          [...] For that reason Land’s End is a hands-free experience. That
+          means that navigation is done simply by looking at little white
+          dots placed strategically through the environment, each
+          representing possible paths or actions a player can undertake."
+
+- title:  Phantom Terrains
+  link:   http://phantomterrains.com/
+  tags:   [aesthetics, visualization]
+  desc:   |
+          data art
+
+- title:  Matt Powell
+  link:   http://powwell.tumblr.com/
+  tags:   [aesthetics]
+  desc:   |
+          "damn fine gifs"
+
+- title:  Quick and Nimble coding style
+  link:   https://github.com/Quick/CodeStyle
+  tags:   [swift]
+
+- title:  Utter Disregard for Git Commit History
+  link:   http://zachholman.com/posts/git-commit-history/
+  tags:   [git]
+  desc:   |
+          "It might be interesting if Git had a new object that was below
+          the Commit object — maybe a ExperimentalCommit that would get
+          folded into a single Commit once it went through code review.
+          That way, each developer could commit their scratchpad
+          experimentations to mainline (so they can refer back to them in
+          the future), but a separate commit history of code review could
+          be generated and used as the «clean» history."
+
+- title:  Reading your own code
+  link:   http://devopsreactions.tumblr.com/post/120682285491/reading-your-own-code
+  tags:   [else]
