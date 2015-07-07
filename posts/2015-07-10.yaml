@@ -1,0 +1,65 @@
+- title:  Real Life Mirror's Edge
+  link:   https://vimeo.com/132980067
+  tags:   [video, game]
+  desc:   |
+          WJW
+
+- title:  The Most Radioactive Places on Earth
+  link:   https://www.youtube.com/watch?v=TRL7o2kPqw0
+  tags:   [video]
+
+- title:  |
+          99% Invisible 170: Children of the Magenta
+  link:   http://99percentinvisible.org/episode/children-of-the-magenta-automation-paradox-pt-1/
+  tags:   [hci, podcast]
+  desc:   |
+          Automation Paradox, part 1
+
+- title:  |
+          99% Invisible 171: Johnnycab
+  link:   http://99percentinvisible.org/episode/johnnycab-automation-paradox-pt-2/
+  tags:   [hci, podcast]
+  desc:   |
+          Automation Paradox, part 2
+
+- title:  1955 Ford "Beatnik Bubbletop" Custom
+  link:   http://www.topgear.com/car-news/modified/bubble-roofed-custom-ford-strange-and-wonderful
+  tags:   [car, aesthetics]
+  desc:   |
+          keeping up with the Jetsons
+
+- title:  How I Handle Email
+  link:   https://medium.com/@zbigniew/how-i-handle-email-3bf6d8dda83a
+  tags:   [solution]
+  desc:   |
+          > I have set up a smart mailbox called “EMPTY” on my Mac, which is
+          > always … empty. I open it every time I don’t want to look at my
+          > inbox, to avoid jumping right into answering mode or getting
+          > stressed about something I took a glimpse of there. So I start
+          > Mail, switch to “EMPTY” with Alt-1 immediately, and keep doing
+          > what I was about to do [...]
+          >
+          > I hate to go through my inbox only to realize that for every two
+          > emails I’ve processed, five new ones have just arrived. So the
+          > key benefit of having a YESTERDAY smart mailbox is that this list
+          > of messages never grows, and you can actually get to the bottom
+          > of it.
+
+- title:  Scripts to Rule Them All
+  link:   http://githubengineering.com/scripts-to-rule-them-all/
+  tags:   [solution]
+  desc:   |
+          "At GitHub, we have normalized on a set of script names for all
+          of our projects that individual contributors will be familiar with
+          the second after they clone a project."
+
+- title:  Geometry Daily is back
+  link:   http://geometrydaily.tumblr.com/post/123110163546/welcome-to-season-3-of-geometry-daily-i-will
+  tags:   [aesthetics]
+  desc:   |
+          "square format, one clear idea, simulated print of no more than
+          four colors, posting each day at 4pm CET"
+
+- title:  Colorcomb
+  link:   https://twitter.com/mbostock/status/616997219925798912
+  tags:   [aesthetics]
