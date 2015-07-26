@@ -1,0 +1,54 @@
+- title:  Facebook Aquila
+  link:   http://www.theverge.com/2015/7/30/9074925/facebook-aquila-solar-internet-plane
+  tags:   [wjw, trivia]
+  desc:   |
+          Solar-powered plane flying at altitudes higher than 20 km, for
+          90 days, beaming internet connectivity down...  WJW
+
+- title:  Dithering with wide error displacement
+  link:   https://twitter.com/LorenSchmidt/status/627387361677152256
+  tags:   [gamedev, aesthetics]
+
+- title:  Image dithering
+  link:   http://www.tannerhelland.com/4660/dithering-eleven-algorithms-source-code/
+  tags:   [reading]
+  desc:   |
+          eleven algorithms
+
+- title:  Grayscale conversion
+  link:   http://www.tannerhelland.com/3643/grayscale-image-algorithm-vb6/
+  tags:   [reading]
+  desc:   |
+          seven algorithms
+
+- title:  It does get kind of crazy after a while
+  link:   https://twitter.com/inconvergent/status/625648399086432256
+  tags:   [aesthetics]
+
+- title:  Inconvergent
+  link:   http://inconvergent.net/
+  tags:   [aesthetics]
+  desc:   |
+          "My name is Anders Hoff. I write algorithms that generate images."
+
+- title:  How to Make a Moth
+  link:   http://www.studio360.org/story/sideshow-how-make-moth/
+  tags:   [interview]
+  desc:   |
+          interview with Katie Rose Pipkin and Loren Schmidt
+
+- title:  A train in Fallout 3 is an NPC wearing a train hat
+  link:   http://mobile.geek.com/latest/257396-a-train-you-ride-in-fallout-3-is-actually-an-npc-wearing-a-train-hat
+  tags:   [gamedev, trivia]
+  desc:   |
+          "It turns out it was easier to make the train car a piece of
+          head armor and slap it onto an NPC than it was to make a working
+          vehicle."
+
+- title:  Base 12
+  link:   https://www.youtube.com/watch?v=U6xJfP7-HCc
+  tags:   [video, trivia]
+  desc:   |
+          Because 3 and 4 are factors of 12, dozenal system is easier for
+          computing thirds and fourths than decimal system, which means it
+          is more convenient in everyday life.
