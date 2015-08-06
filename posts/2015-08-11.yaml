@@ -7,7 +7,7 @@
 
 - title:  Dithering with wide error displacement
   link:   https://twitter.com/LorenSchmidt/status/627387361677152256
-  tags:   [gamedev, aesthetics]
+  tags:   [generative, gamedev, aesthetics]
 
 - title:  Image dithering
   link:   http://www.tannerhelland.com/4660/dithering-eleven-algorithms-source-code/
@@ -23,17 +23,17 @@
 
 - title:  It does get kind of crazy after a while
   link:   https://twitter.com/inconvergent/status/625648399086432256
-  tags:   [aesthetics]
+  tags:   [generative, aesthetics]
 
 - title:  Inconvergent
   link:   http://inconvergent.net/
-  tags:   [aesthetics]
+  tags:   [generative, aesthetics]
   desc:   |
           "My name is Anders Hoff. I write algorithms that generate images."
 
 - title:  How to Make a Moth
   link:   http://www.studio360.org/story/sideshow-how-make-moth/
-  tags:   [interview]
+  tags:   [generative, interview]
   desc:   |
           interview with Katie Rose Pipkin and Loren Schmidt
 

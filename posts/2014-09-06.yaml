@@ -35,13 +35,13 @@
 
 - title:  variable
   link:   http://variable.io/
-  tags:   [visualization]
+  tags:   [generative, visualization]
   desc:   |
           "is a new generative design studio in London"
 
 - title:  Tweetable Mathematical Art
   link:   http://codegolf.stackexchange.com/questions/35569/tweetable-mathematical-art
-  tags:   [aesthetics]
+  tags:   [generative, aesthetics]
 
 - title:  Query
   link:   http://xkcd.com/1409/

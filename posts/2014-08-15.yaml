@@ -1,7 +1,7 @@
 - title:  |
           p5.js: hello
   link:   http://hello.p5js.org/
-  tags:   [visualization, video]
+  tags:   [generative, visualization, video]
   desc:   |
           Interactive introductory video to "a JavaScript library that starts
           with the original goal of Processing, to make coding accessible for
