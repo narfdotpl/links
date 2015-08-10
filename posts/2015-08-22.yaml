@@ -1,0 +1,46 @@
+- title:  Journey
+  link:   http://thatgamecompany.com/games/journey/
+  tags:   [wjw, game, aesthetics]
+  desc:   |
+          A masterpiece
+
+- title:  Pipe Dream
+  link:   https://www.youtube.com/watch?v=lDi9uFcD7XI
+  tags:   [wjw, motorcycle, alternative-physics, video]
+  desc:   |
+          motorcycle in Tahiti
+
+- title:  Darkroom 2
+  link:   http://www.theverge.com/2015/8/6/9106117/darkroom-2-iphone-photo-editing-app-filters
+  tags:   [ios, solution]
+  desc:   |
+          I've switched to Darkroom from VSCO
+
+- title:  A Better Default Colormap for Matplotlib
+  link:   https://www.youtube.com/watch?v=xAoljeRJ3lU
+  tags:   [visualization, talk, python]
+  desc:   |
+          called viridis
+
+- title:  Inside ILM's Star Wars virtual reality lab
+  link:   https://www.youtube.com/watch?v=IeaLgPMGzkQ
+  tags:   [video, hci, oculus]
+  desc:   |
+          "We'll see how far, you know, how far we can get, but I think
+          that's the new model.  Deep media.  Highly connected.  Smashed
+          silo structures."
+
+- title:  Remove duplicated iOS simulators
+  link:   https://twitter.com/KrauseFx/status/626708819318571008
+  tags:   [ios, solution]
+
+- title:  I in Team
+  link:   http://xkcd.com/1562/
+  tags:   [comics]
+
+- title:  Bitcoin (n.)
+  link:   http://www.theverge.com/a/new-devils-dictionary
+  tags:   [bitcoin, quote]
+  desc:   |
+          "A revolutionary digital currency free of central banks, deposits,
+          or stable concepts of ownership and value."
