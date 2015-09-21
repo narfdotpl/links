@@ -1,0 +1,54 @@
+- title:  What Happens Next Will Amaze You
+  link:   http://idlewords.com/talks/what_happens_next_will_amaze_you.htm
+  tags:   [maciej-ceglowski, talk]
+  desc:   |
+          talk by Maciej Cegłowski
+
+- title:  Don't be bitter
+  link:   http://mikebithell.tumblr.com/post/129905736132/a-note-to-future-mike
+  tags:   [gamedev]
+  desc:   |
+          a note to future Mike
+
+- title:  Unite Boston 2015 Highlight Reel
+  link:   https://www.youtube.com/watch?v=76O54wsysmk
+  tags:   [gamedev, video]
+  desc:   |
+          made with Unity
+
+- title:  High Performance Touch
+  link:   https://www.youtube.com/watch?v=vOvQCPLkPt4
+  tags:   [ios, hci, video]
+  desc:   |
+          100 ms lag is what we have now,
+          10 ms is *way* better but not good enough,
+          1 ms is game-changing
+
+- title:  Google's Monorepo
+  link:   https://www.youtube.com/watch?v=W71BTkUbdqE
+  tags:   [talk]
+  desc:   |
+          talk by Rachel Potvin
+
+          one codebase, 86 terabytes, development without branches,
+          45&nbsp;thousand commits a day
+
+- title:  Mastering the tvOS Focus Engine
+  link:   http://nerds.airbnb.com/tvos-focus-engine/
+  tags:   [ios, hci]
+  desc:   |
+          "Focus effects are the crux of what makes tvOS communal. Focus
+          effects provide visual feedback not only to whomever is
+          quarterbacking the remote, but also to any onlookers who are
+          following along. They’re what separate this native TV experience
+          from AirPlay-ing your iPad to the big screen."
+
+- title:  Mixins and Traits in Swift 2.0
+  link:   http://matthijshollemans.com/2015/07/22/mixins-and-traits-in-swift-2/
+  tags:   [swift]
+  desc:   |
+          "By making the view controller conform to the protocols for the
+          `ValidatesUsername` and `ValidatesPassword` mixins, it
+          automatically pulls the `isUsernameValid()` and `isPasswordValid()`
+          methods into the code.  [...] This is a nice trick to keep your
+          view controllers clean without having to use extra helper objects."
