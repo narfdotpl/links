@@ -1,0 +1,45 @@
+- title:  |
+          Radiolab: Darkode
+  link:   http://www.radiolab.org/story/darkode/
+  tags:   [podcast]
+
+- title:  eslisp
+  link:   https://github.com/anko/eslisp
+  tags:   [lisp]
+  desc:   |
+          "An S-expression syntax for ECMAScript/JavaScript, with Lisp-like
+          hygienic macros. Minimal core, maximally customisable."
+
+- title:  Prototyping Paper on iPhone, Part I
+  link:   http://blog.fiftythree.com/posts/prototyping-paper-iphone-part-1
+  tags:   [ios]
+
+- title:  |
+          Extra Credits: Power Creep in Hearthstone
+  link:   https://www.youtube.com/watch?v=M3b3hDvRjJA
+  tags:   [extra-credits, gamedev, video]
+  desc:   |
+          What It Teaches Us About Games
+
+- title:  Carmack on optimization
+  link:   https://twitter.com/ID_AA_Carmack/status/515873591515049984
+  tags:   [quote]
+  desc:   |
+          "You can prematurely optimize maintainability, flexibility,
+          security, and robustness  just like you can performance."
+
+- title:  Monochrome Chess
+  link:   http://www.wunderland.com/WTS/Andy/Games/monochess.html
+  tags:   [game, trivia]
+  desc:   |
+          "Why play Chess using pieces of just one color? Because it's
+          weird, that's why!  [...] on-lookers understand enough
+          about what's going on to know that something is very wrong.
+          And that's exactly the point of Monochrome Chess - [...] to
+          distort their sense of reality.
+
+          The other half of the fun comes from the fact that Monochrome
+          Chess requires unconventional thinking on the part of the players.
+          To play Monochrome Chess, you need to unlearn many of the
+          strategies and techniques you know from Normal Chess. To be good
+          at Monochrome Chess, you need to learn to think in new ways."
