@@ -1,0 +1,47 @@
+- title:  GammaThingy
+  link:   https://github.com/thomasfinch/GammaThingy
+  tags:   [ios, solution]
+  desc:   |
+          Open source [f.lux](https://justgetflux.com/) for iOS.
+          Doesn't require jailbreak.  You have to build it yourself.
+          It's glorious.
+
+- title:  Futuristic landscapes of Paris
+  link:   http://podroze.gazeta.pl/galerie/1,148770,19032960,zaskakujaca-druga-twarz-paryza-turysci-tutaj-nie-zagladaja.html
+  tags:   [aesthetics]
+  desc:   |
+          photos by Laurent Kronental
+
+- title:  Museu do Côa
+  link:   https://vimeo.com/110893656
+  tags:   [aesthetics, video]
+
+- title:  The Art of Journey
+  link:   https://www.youtube.com/watch?v=RoHrwAacTwo
+  tags:   [gamedev, talk]
+  desc:   |
+          talk by Matt Nava
+
+- title:  Guilty Gear Xrd's Art Style
+  link:   https://www.youtube.com/watch?v=yhGjCzxJV3E
+  tags:   [gamedev, talk]
+  desc:   |
+          talk by Junya Christopher Motomura
+
+- title:  You Don't Stand a Chance
+  link:   https://www.youtube.com/watch?v=PZn9a9-Gyc0
+  tags:   [gamedev, talk]
+  desc:   |
+          talk by Rami Ismail
+
+- title:  Egoism
+  link:   http://www.qwantz.com/index.php?comic=1581
+  tags:   [comics]
+
+- title:  Notch on life
+  link:   https://twitter.com/notch/status/654358309344940032
+  tags:   [notch, quote]
+  desc:   |
+          "Life is a lot like tweeting, so try to squeeze in as much as you
+          can and get a lot of retweets, because before you know it, you’re
+          out of ch"
