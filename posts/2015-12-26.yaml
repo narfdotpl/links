@@ -1,0 +1,50 @@
+- title:  Sesame Credit
+  link:   https://www.youtube.com/watch?v=lHcTKWiZ8sI
+  tags:   [video]
+
+- title:  Swift Property Behaviors Proposal
+  link:   https://twitter.com/jckarter/status/677554831003791360
+  tags:   [swift]
+  desc:   |
+          > There are property implementation patterns that come up
+          > repeatedly. Rather than hardcode a fixed set of patterns into the
+          > compiler, we should provide a general "property behavior"
+          > mechanism to allow these patterns to be defined as libraries.
+
+          ...
+
+          > A `var` or `let` declaration can specify its behavior in parens
+          > after the keyword:
+          >
+          >     var (lazy) foo = 1738
+          >
+
+- title:  "VR for Everyone: The Design of Land's End"
+  link:   https://www.youtube.com/watch?v=NmA8JWn0L_8
+  tags:   [oculus, monument-valley, talk]
+  desc:   |
+          talk by Ken Wong
+
+- title:  If you want to say
+  link:   http://www.autostraddle.com/saturday-morning-cartoons-baopu-15-318590/
+  tags:   [comics]
+
+- title:  Turning Gravity Into Light
+  link:   https://www.youtube.com/watch?v=Jsc-pQIMxt8
+  tags:   [trivia, video]
+
+- title:  High school
+  link:   http://sarahcandersen.com/post/135049677688
+  tags:   [comics]
+
+- title:  Andrew Smith on shipping
+  link:   http://www.garethdutton.com/mgif/2015/9/24/mgif-s2-e4-andrew-smith-spilt-milk-studios
+  tags:   [quote]
+  desc:   |
+          "I want it to do well and I keep changing what that means."
+
+- title:  Don’t use pie charts
+  link:   https://twitter.com/maxcroser/status/676563118512840704
+  tags:   [visualization]
+  desc:   |
+          one link you can point people to
