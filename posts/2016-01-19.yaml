@@ -1,0 +1,55 @@
+- title:  "Reply All 50: The Cathedral"
+  link:   https://gimletmedia.com/episode/50-the-cathedral/
+  tags:   [game, podcast, interview]
+  desc:   |
+          interview with Amy and Ryan Green, parents of Joel and creators
+          of "That Dragon, Cancer"
+
+- title:  Polygons v2
+  link:   https://www.behance.net/gallery/32595493/Polygons-vol-2
+  tags:   [aesthetics, wjw]
+  desc:   |
+          WJW
+
+- title:  Protocols with Associated Types
+  link:   https://www.youtube.com/watch?v=XWoNjiSPqI8
+  tags:   [swift, talk]
+  desc:   |
+          talk by Alexis Gallagher
+
+- title:  associatedtype keyword in Swift 2.2
+  link:   https://github.com/apple/swift-evolution/blob/master/proposals/0011-replace-typealias-associated.md
+  tags:   [swift]
+
+- title:  Confessions of a F2P Game Programmer
+  link:   http://szafranek.net/works/articles/f2p-programmer/
+  tags:   [ios, gamedev]
+  desc:   |
+          "Such model puts focus on iterative development, facilitating
+          flexibility and growth. It’s quite different from premium games,
+          where most energy is spent on the initial release, possibly
+          followed by as few as possible patches.
+
+          Running a game as a service influences priorities in some very
+          practical terms."
+
+- title:  Manufacturing quality time
+  link:   https://m.signalvnoise.com/manufacturing-quality-time-fe043fa7b7a1
+  tags:   [work]
+  desc:   |
+          "The trick to juggling it all is to stop juggling."
+
+- title:  Once Upon a Time in Shaolin
+  link:   http://www.dancohen.org/2016/01/04/for-what-its-worth-a-review-of-the-wu-tang-clans-once-upon-a-time-in-shaolin/
+  tags:   [reading]
+  desc:   |
+          "[T]he Wu-Tang Clan sold its latest album, *Once Upon a Time in
+          Shaolin*, through an online auction house. As one of the most
+          innovative rap groups, the Wu-Tang Clan had used concepts for
+          their recordings before, but the latest album would be their
+          highest concept: it would exist as only one copy—as an LP, that
+          physical, *authentic* format for music—encased in an artisanally
+          crafted box. This album would have only one owner, and thus,
+          perhaps, only one listener. By legal agreement, the owner would
+          not be allowed to distribute it commercially until 88 years
+          from now."
