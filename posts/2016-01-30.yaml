@@ -1,0 +1,33 @@
+- title:  "0x5f3759df"
+  link:   http://h14s.p5r.org/2012/09/0x5f3759df.html
+  tags:   [wjw, gamedev]
+  desc:   |
+          "This post is about the magic constant 0x5f3759df and an extremely
+          neat hack, fast inverse square root, which is where the constant
+          comes from."
+
+- title:  What's Your Secondary Language?
+  link:   http://prog21.dadgum.com/215.html
+  tags:   [reading]
+  desc:   |
+          "The language you reach for to solve problems, prove that ideas
+          work before implementing them for real, and to do interesting
+          things with files and data."
+
+- title:  Werness' error diffusion
+  link:   https://twitter.com/dukope/status/693260389241352192
+  tags:   [gamedev]
+  desc:   |
+          fixing the "can't read faces" problem in Obra Dinn
+
+- title:  Lightspeed Classic
+  link:   https://www.youtube.com/watch?v=2VJNTg7CegQ
+  tags:   [car, video]
+
+- title:  Google’s AI Beats a Top Player at the Game of Go
+  link:   http://www.wired.com/2016/01/in-a-huge-breakthrough-googles-ai-beats-a-top-player-at-the-game-of-go/
+  tags:   [reading]
+
+- title:  Washing machine brick bouncing on trampoline
+  link:   https://www.youtube.com/watch?v=779fMc8ubOo
+  tags:   [alternative-physics]
