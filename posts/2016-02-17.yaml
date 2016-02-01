@@ -1,0 +1,50 @@
+- title:  "Kurzgesagt: Red Dwarfs"
+  link:   https://www.youtube.com/watch?v=LS-VPyLaJFM
+  tags:   [kurzgesagt, video]
+
+- title:  "99% Invisible 171: Miss Manhattan"
+  link:   http://99percentinvisible.org/episode/miss-manhattan/
+  tags:   [podcast]
+  desc:   |
+          "All over New York City, there is a woman in various states of
+          undress, so baked into architecture that we barely even notice her.
+          In the public library, she leans against a white horse; at the
+          intersection of 59th and 5th, she perches atop a fountain; on 107th
+          and Broadway, she reclines on a bed; and on top of the Manhattan
+          Municipal Building she stands tall, this time cast in gold."
+
+- title:  "GitHub Engineering: Introducing Scientist"
+  link:   http://githubengineering.com/scientist/
+  tags:   [tool]
+  desc:   |
+          "We built Scientist to fill in that missing piece and help test the
+          production data and behavior to ensure correctness. It works by
+          creating a lightweight abstraction called an experiment around the
+          code that is to be replaced. The original code — the control — is
+          delegated to by the experiment abstraction, and its result is
+          returned by the experiment. The rewritten code is added as a
+          candidate to be tried by the experiment at execution time. When the
+          experiment is called at runtime, both code paths are run (with the
+          order randomized to avoid ordering issues). The results of both the
+          control and candidate are compared and, if there are any differences
+          in that comparison, those are recorded. The duration of execution
+          for both code blocks is also recorded. Then the result of the
+          control code is returned from the experiment."
+
+- title:  Operator
+  link:   http://www.typography.com/blog/introducing-operator
+  tags:   [typo]
+  desc:   |
+          A monospace typeface from H&Co
+
+- title:  "Street Fighter III: Daigo's full parry"
+  link:   https://www.youtube.com/watch?v=EA5RlZoHDds
+  tags:   [game]
+
+- title:  Wait, was I following one rider, or two?
+  link:   https://www.reddit.com/r/motorcycles/comments/43jwnt/wait_was_i_following_one_rider_or_two/
+  tags:   [motorcycle]
+
+- title:  RHUBUHBUHBUHBUHBUHBB
+  link:   https://www.youtube.com/watch?v=SCiYX-9LC88
+  tags:   [motorcycle]
