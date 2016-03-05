@@ -1,0 +1,45 @@
+- title:  PhotoViz
+  link:   https://vimeo.com/122852255
+  tags:   [visualization, talk]
+  desc:   |
+          talk by Nicholas Felton
+
+- title:  Accretion Disc Series
+  link:   http://clintfulkerson.com/Accretion-Disc-Series
+  tags:   [aesthetics]
+  desc:   |
+          "My artwork features complex patterns and forms made by an
+          accumulation of hand drawn marks."
+
+- title:  Werkbank
+  link:   https://vimeo.com/157990864
+  tags:   [hci]
+  desc:   |
+          "[E]xpanding on the ideas of the current system of a true free-hand
+          library: The shelf-scanning robot allows you to reorganise the books
+          without losing their positions; the original table lets you pin down
+          a collection of books and materials as a collection, and save it as
+          a reading list for others to find."
+
+- title:  fzf
+  link:   https://github.com/junegunn/fzf
+  tags:   [tool]
+  desc:   |
+          "A general-purpose command-line fuzzy finder".  I use it for
+          [switching between git branches](https://twitter.com/narfdotpl/status/710243200431210500).
+
+- title:  "MentalHealthError: an exception occurred"
+  link:   http://www.kennethreitz.org/essays/mentalhealtherror-an-exception-occurred
+  tags:   [reading]
+  desc:   |
+          "While I was under the impression, going in, that I was free to
+          check myself out at any time, the opposite was true — they weren't
+          going to let me leave until I was well enough to leave."
+
+- title:  The old gods are dead
+  link:   http://crossroadsbela.tumblr.com/post/110393424709/the-old-gods-are-dead-zeus-sits-at-the-bar-hell
+  tags:   [reading]
+  desc:   |
+          "Zeus sits at the bar, he’ll buy a thousand and one drinks and the
+          girls who he smiles at will raise their eyebrows and think of the
+          pepper spray tucked into their sleeves."
