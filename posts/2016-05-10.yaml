@@ -1,0 +1,50 @@
+- title:  Emissions Test-Driven Development
+  link:   https://qntm.org/emissions
+  tags:   [car, reading]
+  desc:   |
+          "Quite quickly the developer would arrive at a situation where the
+          simplest course of action is to produce two implementations. One
+          would be the genuine software desired by the tester and their tests.
+          The other would be the software which the developer really wanted to
+          build. Crucially, the switch in behaviour would be controlled by the
+          environment. If there's a test running, the software would behave
+          like *this*. If not, it would behave like *that*."
+
+- title:  "32C3: The exhaust emissions scandal („Dieselgate“)"
+  link:   https://www.youtube.com/watch?v=xZSU1FPDiao
+  tags:   [car, talk]
+  desc:   |
+          talk by Daniel Lange and Felix Domke
+
+- title:  "Glitch: a noisy fusion of math and music"
+  link:   https://medium.com/@naive_sound/glitch-a-noisy-fusion-of-math-and-music-6a9b24e7f5b5
+  tags:   [generative, music]
+  desc:   |
+          "Bytebeat music has no conventional musical notation — there is no
+          notes or chords or even instruments. All you have is a mathematical
+          expression that is evaluated for each time frame to generate the
+          next amplitude value of the sound wave."
+
+- title:  Programming as Performance
+  link:   https://www.youtube.com/watch?v=TK1mBqKvIyU
+  tags:   [generative, music, talk]
+  desc:   |
+          talk by Sam Aaron
+
+- title:  Pre-Touch Sensing
+  link:   https://www.youtube.com/watch?v=fiZkEYLXctE
+  tags:   [hci]
+  desc:   |
+          by Microsoft Research
+
+- title:  SkinTrack
+  link:   http://www.yang-zhang.me/research/SkinTrack/SkinTrack.html
+  tags:   [hci]
+  desc:   |
+          smartwatch tracking finger on the skin
+
+- title:  Tracer & Pose Design 101
+  link:   https://www.youtube.com/watch?v=ZmLkVtqjf1A
+  tags:   [game, video, extra-credits]
+  desc:   |
+          the animation of Overwatch
