@@ -1,0 +1,42 @@
+- title:  NONE
+  link:   http://ashthorp.com/none
+  tags:   [ash-thorp, film]
+  desc:   |
+          "NONE is a short film that explores the balance of light and
+          darkness.  It has a personal narrative which plays with the
+          notion of finding yourself amidst the noise around you."
+
+- title:  Imagine being a totally random person
+  link:   http://twocubes.tumblr.com/post/150916130353/imagine-being-a-totally-random-person-just-a
+  tags:   [twocubes, quote]
+  desc:   |
+          "Imagine being a totally random person.
+          Just a completely arbitrary character.
+          An entirely nonspecific individual."
+
+- title:  Alessandro Cortini at the Apothecary
+  link:   https://www.youtube.com/watch?v=aZ155KLFoQM
+  tags:   [music]
+  desc:   |
+          ∞♡
+
+- title:  Print the Legend
+  link:   https://en.wikipedia.org/wiki/Print_the_Legend
+  tags:   [3d-printing, work, film]
+  desc:   |
+          A movie about engineers' dreams and workaholism.
+          Featuring: white males.
+
+- title:  Work
+  link:   http://xkcd.com/1741/
+  tags:   [xkcd, work, comics]
+
+- title:  Sculpting app for Vive
+  link:   https://twitter.com/rustinlee/status/745103694727806976
+  tags:   [vr]
+
+- title:  Swifty Delegates
+  link:   http://khanlou.com/2016/09/swifty-delegates/
+  tags:   [swift]
+  desc:   |
+          `func didSelectRow(at indexPath: IndexPath, in tableView: UITableView)`
