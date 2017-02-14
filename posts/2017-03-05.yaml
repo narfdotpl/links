@@ -1,0 +1,51 @@
+- title:  Introducing Handle
+  link:   https://www.youtube.com/watch?v=-7xvqQeoA8c
+  tags:   [robot]
+  desc:   |
+          Boston Dynamics...
+
+- title:  Minitaur Explores the Outdoors
+  link:   https://www.youtube.com/watch?v=bnKOeMoibLg
+  tags:   [robot]
+  desc:   |
+          0:30 jump <3
+
+- title:  Ghost Robotics' Minitaur Quadruped Conquers Stairs, Doors, and Fences and Is Somehow Affordable
+  link:   http://spectrum.ieee.org/automaton/robotics/robotics-hardware/ghost-robotics-minitaur-quadruped
+  tags:   [robot]
+
+- title:  Ghost Robotics' Minitaur Demonstrates Impressive New Skills
+  link:   http://spectrum.ieee.org/automaton/robotics/robotics-hardware/ghost-robotics-minitaur-demonstrates-impressive-new-skills
+  tags:   [robot]
+  desc:   |
+          "On flat surfaces with no objects in their path, wheeled robots
+          are more efficient than tracked, legged, and even aerial robots.
+          In sand, mud, and rougher terrain, tracks are superior to wheels.
+          However, with fixed objects, obstacles, and vertical surfaces in
+          the path of a tracked robot with no alternative path, legged robots
+          are superior. Even if moderate objects and obstacles can be overcome
+          by tracks, continuous unstructured terrain over a large field of
+          operation reduces the energy efficiency of tracked devices when
+          compared to dynamic legged robots."
+
+- title:  The Secret Ingredient to Photorealism
+  link:   https://www.youtube.com/watch?v=m9AT7H4GGrA
+  tags:   [blender, talk]
+  desc:   |
+          "talk" by Andrew P Price
+
+- title:  "Radiolab: CRISPR update"
+  link:   http://www.radiolab.org/story/update-crispr/
+  tags:   [radiolab, podcast]
+
+- title:  Location Reviews
+  link:   https://xkcd.com/1803/
+  tags:   [xkcd, comics]
+
+- title:  Drippy Calligraphy Experiments by Seb Lester
+  link:   http://www.thisiscolossal.com/2017/02/drippy-calligraphy-experiments-by-seb-lester/
+  tags:   [typo, aesthetics]
+
+- title:  "Bad Map Projection: Time Zones"
+  link:   https://xkcd.com/1799/
+  tags:   [xkcd, visualization]
