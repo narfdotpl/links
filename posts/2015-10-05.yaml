@@ -1,7 +1,7 @@
 - title:  |
           Radiolab: Darkode
   link:   http://www.radiolab.org/story/darkode/
-  tags:   [podcast]
+  tags:   [radiolab, podcast]
 
 - title:  eslisp
   link:   https://github.com/anko/eslisp

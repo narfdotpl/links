@@ -6,7 +6,7 @@
 
 - title:  Invisibilia
   link:   http://www.npr.org/programs/invisibilia/
-  tags:   [podcast]
+  tags:   [radiolab, podcast]
   desc:   |
           "Co-hosted by NPR's Lulu Miller and Alix Spiegel, who helped create
           Radiolab and This American Life, Invisibilia delves into a wide array
@@ -22,7 +22,7 @@
 - title:  |
           Radiolab: The Trust Engineers
   link:   http://www.radiolab.org/story/trust-engineers/
-  tags:   [podcast]
+  tags:   [radiolab, podcast]
   desc:   |
           social experiments at Facebook
 
