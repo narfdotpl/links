@@ -1,0 +1,44 @@
+- title:  Ori and the Blind Forest
+  link:   http://store.steampowered.com/app/261570/
+  tags:   [game]
+
+- title:  INSIDE
+  link:   http://store.steampowered.com/app/304430/
+  tags:   [game]
+
+- title:  "99% Invisible 256: Sounds Natural"
+  link:   http://99percentinvisible.org/episode/sounds-natural/
+  tags:   [trivia, 99pi, podcast]
+  desc:   |
+          "Some of the sounds may not be real, but they still tell a true
+          story. Sound design in nature docs."
+
+- title:  No Man's Sky | 65daysofstatic Studios Session
+  link:   https://www.youtube.com/watch?v=_OAKUlRlNF0
+  tags:   [no-mans-sky, music]
+  desc:   |
+          <3
+
+- title:  A Generative Approach to Simulating Watercolor Paints
+  link:   http://www.tylerlhobbs.com/writings/watercolor
+  tags:   [procedural]
+
+- title:  Isohedral V Breakdown
+  link:   http://www.tylerlhobbs.com/writings/isohedral-v-breakdown
+  tags:   [procedural, aesthetics]
+
+- title:  The Solar Power Towers of Southern Spain
+  link:   https://www.youtube.com/watch?v=gGXjWqVeVJE
+  tags:   [aesthetics, trivia]
+  desc:   |
+          looks sci-fi
+
+- title:  Get to grips with asyncio in Python 3
+  link:   https://www.youtube.com/watch?v=M-UcUs7IMIM
+  tags:   [python, talk]
+  desc:   |
+          talk by Robert Smallshire
+
+- title:  Hi, Robot!
+  link:   https://www.youtube.com/watch?v=h1E-FlguwGw
+  tags:   [robot, hci]
