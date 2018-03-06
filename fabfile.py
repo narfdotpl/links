@@ -44,7 +44,7 @@ def deploy():
     local('git push')
 
     with cd('~/narf.pl/links/depl'):
-        run('git pull')
+        run('git pull backup master')
         run('source .environment && pip install -r ../env/reqs')
 
     for subdir_name in ['build', 'static']:
