@@ -1,0 +1,44 @@
+- title:  Too Many Zooz - Bedford
+  link:   https://www.youtube.com/watch?v=IMyqasy2Lco
+  tags:   [music, wjw]
+
+- title:  "Kurzgesagt: The Black Hole Bomb and Black Hole Civilizations"
+  link:   https://www.youtube.com/watch?v=ulCdoCfw-bY
+  tags:   [kurzgesagt, space, trivia]
+
+- title:  "The World According to Sound 79: Growing Up"
+  link:   https://soundcloud.com/worldaccordingtosound/79-tony-schwartz
+  tags:   [podcast]
+  desc:   |
+          "Things change fast."
+
+- title:  No Girlfriend Comics
+  link:   http://brandonsheffield.com/no-girlfriend-comics/
+  tags:   [comics]
+
+- title:  Let's Talk About Google Duplex
+  link:   https://www.youtube.com/watch?v=USXoINPEhoA
+  tags:   [hci]
+  desc:   |
+          because they can
+
+- title:  day-tight compartment
+  link:   https://abstrusegoose.com/587
+  tags:   [comics]
+
+- title:  Meteorologist
+  link:   https://xkcd.com/1985/
+  tags:   [xkcd, comics]
+
+- title:  Retrobatch Public Beta
+  link:   http://shapeof.com/archives/2018/5/retrobatch_public_beta.html
+  tags:   [tool]
+  desc:   |
+          "Retrobatch is a node based (not the JS language) batch image
+          processor. A bit like Quartz Composer, and a bit like Audio
+          Hijack. But for images. Lots and lots of images (or maybe a few
+          or even one)."
+
+- title:  Containers
+  link:   https://xkcd.com/1988/
+  tags:   [xkcd, comics]
