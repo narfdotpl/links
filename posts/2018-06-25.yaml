@@ -1,0 +1,45 @@
+- title:  Peace for Triple Piano
+  link:   https://www.youtube.com/watch?v=HcRW3FMuttY
+  tags:   [wjw, music]
+
+- title:  Smart kids eventually grow up
+  link:   http://candleinsunshine.com/musings/smart-kids-eventually-grow-up/
+  tags:   [reading]
+
+- title:  NotParadox
+  link:   https://www.youtube.com/channel/UCBNMrV1SzFcL3WGx7iejh6A
+  tags:   [game]
+  desc:   |
+          a very good channel about Heroes of the Storm
+
+- title:  What 7 Creepy Patents Reveal About Facebook
+  link:   https://www.nytimes.com/interactive/2018/06/21/opinion/sunday/facebook-patents-privacy.html
+  tags:   [reading]
+  desc:   |
+          > Another [patent] considers analyzing pictures to create a unique
+          > camera “signature” using faulty pixels or lens scratches. That
+          > signature could be used to figure out that you know someone who
+          > uploads pictures taken on your device, even if you weren’t
+          > previously connected. Or it might be used to guess the “affinity”
+          > between you and a friend based on how frequently you use the same
+          > camera.
+
+- title:  Airbnb stops using React Native
+  link:   https://medium.com/airbnb-engineering/sunsetting-react-native-1868ba28e30a
+  tags:   [ios]
+  desc:   |
+          "These engineers wrote [...] code across 220 screens [...].
+          For reference, we have about [...] 4x the number of screens on
+          each native platform."
+
+- title:  What happened to the 3D printing revolution?
+  link:   https://www.youtube.com/watch?v=f5fBwppxtkI
+  tags:   [3d-printing]
+
+- title:  Steamed egg
+  link:   https://i.imgur.com/ZQnobLq.gifv
+  tags:   [alternative-physics]
+
+- title:  Easter egg
+  link:   https://abstrusegoose.com/602
+  tags:   [abstruse-goose, blade-runner, comics]
