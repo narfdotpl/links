@@ -1,0 +1,37 @@
+article {
+  margin-bottom: 1.4em; }
+
+#main-wrapper {
+  margin-bottom: 0; }
+
+.row {
+  overflow: hidden; }
+
+.col {
+  float: left;
+  padding-left: 1ex; }
+  .col:first-child {
+    padding-left: 0; }
+
+.tag {
+  color: #aaa; }
+
+.show-tags {
+  color: #bbb; }
+
+.col40 {
+  width: 40%;
+  float: left; }
+
+.col60 {
+  width: 60%;
+  float: left; }
+
+@media (max-width: 480px) {
+  .col40, .col60 {
+    width: 100%;
+    float: none; } }
+
+@media (max-width: 480px) {
+  .col40 p, .col60 p {
+    text-align: center; } }

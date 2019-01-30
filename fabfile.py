@@ -4,7 +4,7 @@
 from __future__ import division
 from os.path import dirname, join, realpath
 
-from fabric.api import cd, env, local, run, task
+from fabric.api import cd, env, lcd, local, run, task
 from fabric.contrib.project import rsync_project as rsync
 
 
@@ -15,24 +15,23 @@ env.hosts = ['narf@narf.megiteam.pl']
 
 
 @task
+def build_static():
+    'build js and css'
+
+    with lcd(APP_DIR):
+        # js
+        local('cp -r vendor static')
+        local('coffee --print static-src/app.coffee | uglifyjs > static/app.js')
+
+        # css
+        local('sass static-src/style.sass > static/style.css')
+
+@task
 def build():
     'generate html from yaml'
 
-    def in_app_dir(*args):
-        cmd = "cd '%s' && " % APP_DIR
-        local(cmd + ' '.join(args))
-
-    # html
-    in_app_dir('python generator.py')
-
-    # js
-    in_app_dir('cp -r vendor static')
-    in_app_dir('coffee --print static-src/app.coffee | uglifyjs '
-               '> static/app.js')
-
-    # css
-    css = 'static/style.css'
-    in_app_dir('sass static-src/style.sass >', css)
+    with lcd(APP_DIR):
+        local('python generator.py')
 
 
 @task
