@@ -162,12 +162,12 @@ def _main():
 
     # prepare to create a tag cloud
     min_count = min(tags_count.itervalues())
-    max_count = max(tags_count.itervalues())
+    max_count = min([200, max(tags_count.itervalues())])
     min_scale = 1
     max_scale = 3
     get_scale = lambda count: '%.2f' % \
         (min_scale + (max_scale - min_scale) * \
-        (count - min_count) / (max_count - min_count))
+        (min([count, max_count]) - min_count) / (max_count - min_count))
 
     # render tag cloud
     render_and_write('tags.html', tags=[
