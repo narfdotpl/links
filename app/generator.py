@@ -43,6 +43,12 @@ class Link(object):
 
         self._dct = dct
         self.tags = map(Tag, dct['tags'])
+
+        # automatically add "video" tag
+        if 'video' not in dct['tags'] and \
+                any(x in dct['link'] for x in ['youtube.com', 'vimeo.com']):
+            self.tags.append(Tag('video'))
+
         self.tags.append(Tag('_post', post))
 
     def __getattr__(self, name):
