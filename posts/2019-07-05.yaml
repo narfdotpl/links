@@ -1,0 +1,27 @@
+- title:  Disable media key in Google Chrome
+  link:   chrome://flags/#hardware-media-key-handling
+  tags:   [solution]
+
+- title:  I Made Myself Fireproof AND Waterproof With Aerogel
+  link:   https://www.youtube.com/watch?v=GcdB5bFwio4
+  tags:   [veritasium, wjw]
+
+- title:  'Teamfight Tactics: scarra coaching pokimane'
+  link:   https://www.youtube.com/watch?v=ITXyCt4ZWjo
+  tags:   [game]
+
+- title:  Carved Cities
+  link:   https://twitter.com/Sir_carma/status/1132357881855012864
+  tags:   [aesthetics]
+  desc:   |
+          voxel series
+
+- title:  Ribbon Lattice
+  link:   https://generated.space/sketch/ribbon-lattice/
+  tags:   [aesthetics, generative]
+
+- title:  Chromotome
+  link:   https://github.com/kgolid/chromotome
+  tags:   [aesthetics, generative]
+  desc:   |
+          a collection of color palettes
