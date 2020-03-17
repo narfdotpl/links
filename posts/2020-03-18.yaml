@@ -1,0 +1,25 @@
+- title:  Johns Hopkins covid-19 map
+  link:   https://coronavirus.jhu.edu/map.html
+  tags:   [covid-19, visualization]
+
+- title:  Polish covid-19 map
+  link:   https://www.arcgis.com/apps/opsdashboard/index.html#/deaceebc69a3412c8b7699e3e025e213
+  tags:   [covid-19]
+
+- title:  Another Polish covid-19 map
+  link:   https://pokazwirusa.pl/
+  tags:   [covid-19]
+
+- title:  Corona simulator
+  link:   https://www.washingtonpost.com/graphics/2020/world/corona-simulator/
+  tags:   [covid-19, visualization]
+  desc:   |
+          "Let’s see what happens when simulitis spreads in a town of 200
+          people. We will start everyone in town at a random position, moving
+          at a random angle, and we will make one person sick."
+
+- title:  Decoding Covid-19
+  link:   https://multimedia.scmp.com/infographics/news/china/article/3075382/decoding-coronavirus-covid-19/index.html
+  tags:   [covid-19, visualization]
+  desc:   |
+          "Seven human coronaviruses in seven graphics"
