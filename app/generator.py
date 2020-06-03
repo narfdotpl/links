@@ -129,6 +129,11 @@ def strip_whitespace_from_links(html):
     return unicode(soup)
 
 
+def mix(x, x_min, x_max, new_min, new_max):
+    progress = (x - x_min) / (x_max - x_min)
+    return new_min + progress * (new_max - new_min)
+
+
 def _main():
     # start with clear build dir
     if exists(BUILD_DIR):
@@ -162,12 +167,11 @@ def _main():
 
     # prepare to create a tag cloud
     min_count = min(tags_count.itervalues())
-    max_count = min([200, max(tags_count.itervalues())])
-    min_scale = 1
-    max_scale = 3
-    get_scale = lambda count: '%.2f' % \
-        (min_scale + (max_scale - min_scale) * \
-        (min([count, max_count]) - min_count) / (max_count - min_count))
+    max_count = max(tags_count.itervalues())
+    min_scale = 1.0
+    max_scale = 3.0
+    f = lambda n: min(200, n)
+    get_scale = lambda count: '%.2f' % mix(f(count), f(min_count), f(max_count), min_scale, max_scale)
 
     # render tag cloud
     render_and_write('tags.html', tags=[
