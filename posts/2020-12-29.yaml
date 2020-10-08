@@ -1,0 +1,74 @@
+- title:  Reverse Engineering the source code of the BioNTech/Pfizer SARS-CoV-2 Vaccine
+  link:   https://berthub.eu/articles/posts/reverse-engineering-source-code-of-the-biontech-pfizer-vaccine/
+  tags:   [covid-19]
+  desc:   |
+          > The spikes are mounted on the virus body (‘the nucleocapsid
+          > protein’). But the thing is, our vaccine is only generating
+          > the spikes itself, and we’re not mounting them on any kind
+          > of virus body.
+          >
+          > It turns out that, unmodified, freestanding Spike proteins
+          > collapse into a different structure. If injected as a vaccine,
+          > this would indeed cause our bodies to develop immunity.. but
+          > only against the collapsed spike protein.
+          >
+          > And the real SARS-CoV-2 shows up with the spiky Spike.
+          > The vaccine would not work very well in that case.
+          >
+          > So what to do? In 2017 it was described how putting a double
+          > Proline substitution in just the right place would make the
+          > SARS-CoV-1 and MERS S proteins take up their ‘pre-fusion’
+          > configuration, even without being part of the whole virus.
+          > This works because Proline is a very rigid amino acid. It acts
+          > as a kind of splint, stabilising the protein in the state we
+          > need to show to the immune system.
+
+- title:  No Signal
+  link:   https://www.artstation.com/artwork/4b5O2q
+  tags:   [wjw, film, aesthetics]
+
+- title:  Jak mówić, żeby nas słuchano?
+  link:   https://www.youtube.com/watch?v=TG4ZAGnlPOY
+  tags:   [talk]
+  desc:   |
+          wykład Jerzego Bralczyka
+
+- title:  Should we hate Spotify?
+  link:   https://www.youtube.com/watch?v=MXudOLStaXA
+  tags:   [music, talk]
+  desc:   |
+          "an objective view from a professional musician"
+
+- title:  How A Supernova Measured The Universe
+  link:   https://www.youtube.com/watch?v=ljoeOLuX6Z4
+  tags:   [veritasium, space]
+
+- title:  Slay The Spire
+  link:   https://www.megacrit.com
+  tags:   [game]
+  desc:   |
+          a rogue-like deckbuilding card game
+
+- title:  Learn music theory in half an hour
+  link:   https://www.youtube.com/watch?v=rgaTLrZGlk0
+  tags:   [music]
+  desc:   |
+          by Andrew Huang
+
+- title:  Making money
+  link:   https://inconvergent.net/2020/making-money/
+  tags:   [work]
+  desc:   |
+          "In some sense, being an independent artist means you work in
+          sales. This is blindingly obvious to anyone who has been down
+          that road, but I feel it is worth pointing out."
+
+- title:  Fluffy Goes To India
+  link:   https://www.youtube.com/watch?v=ux8GZAtCN-M
+  tags:   [video]
+  desc:   |
+          standup by Gabriel Iglesias
+
+- title:  Arnold and flexibility
+  link:   https://www.youtube.com/watch?v=LBtB4C5pb3g
+  tags:   [video]
