@@ -1,0 +1,62 @@
+- title:  Orca
+  link:   https://github.com/hundredrabbits/Orca
+  tags:   [wjw, synth, music, tool]
+  desc:   |
+          "Orca is an esoteric programming language designed to quickly
+          create procedural sequencers [...].
+
+          This application is not a synthesizer, but a flexible livecoding
+          environment capable of sending MIDI, OSC & UDP to your audio/visual
+          interfaces, like Ableton, Renoise, VCV Rack or SuperCollider."
+
+- title:  Orca intro video
+  link:   https://www.youtube.com/watch?v=RaI_TuISSJE
+  tags:   [synth, music]
+
+- title:  Pilot
+  link:   https://github.com/hundredrabbits/pilot
+  tags:   [synth, music, tool]
+  desc:   |
+          "Pilot is a UDP synthesizer designed to be controlled externally.
+          It was created as a companion application to the livecoding
+          environment ORCA."
+
+- title:  "Future of Coding 44: Making Your Own Tools"
+  link:   https://futureofcoding.org/episodes/044
+  tags:   [interview, podcast]
+  desc:   |
+          interview with Devine Lu Linvega
+
+- title:  "Future of Coding 45: Orca"
+  link:   https://futureofcoding.org/episodes/045
+  tags:   [interview, podcast, hci, synth, music]
+  desc:   |
+          interview with Devine Lu Linvega, focused on Orca
+
+- title:  VCV Rack
+  link:   https://vcvrack.com
+  tags:   [synth, music, tool]
+  desc:   |
+          "a free and open-source cross-platform software modular synthesizer"
+
+- title:  VCV intro video
+  link:   https://www.youtube.com/watch?v=LaMxS5-4U-c
+  tags:   [synth, music]
+
+- title:  Vult
+  link:   https://modlfo.github.io/VultModules/
+  tags:   [synth, music]
+  desc:   |
+          "The Vult modules are 'Virtual Analog'. The internals of the
+          modules are modeled using electrical components and differential
+          equations derived from my own and existing circuits."
+
+- title:  Learning Synths
+  link:   https://learningsynths.ableton.com
+  tags:   [synth, music]
+  desc:   |
+          an interactive website from Ableton
+
+- title:  Augustin Fievet – Near The Light
+  link:   https://www.youtube.com/watch?v=eOYVlv7Kr38
+  tags:   [synth, music]
