@@ -1,0 +1,33 @@
+- title:  Sound + Process 6
+  link:   https://soundcloud.com/sound-and-process/lc_sp
+  tags:   [music, interview, podcast]
+  desc:   |
+          fascinating interview with Piotr Szyhalski
+
+- title:  The Secret of Synchronization
+  link:   https://www.youtube.com/watch?v=t-_VPRCtiUg
+  tags:   [wjw, trivia, veritasium]
+
+- title:  Signal app exploiting vulnerabilities in software that copies phones
+  link:   https://signal.org/blog/cellebrite-vulnerabilities/
+  tags:   [security]
+  desc:   |
+          "We are of course willing to responsibly disclose the specific
+          vulnerabilities we know about to Cellebrite if they do the same
+          for all the vulnerabilities they use in their physical extraction
+          and other services to their respective vendors, now and in the
+          future."
+
+- title:  Blender Guru Podcast 13
+  link:   https://www.youtube.com/watch?v=kjVT9Qk9OeM
+  tags:   [blender, interview, podcast]
+  desc:   |
+          interview with Ian Hubert
+
+- title:  The Future Of Reasoning
+  link:   https://www.youtube.com/watch?v=_ArVh3Cj9rw
+  tags:   [vsauce]
+
+- title:  Level Designer Breaks Down Ori's Awesome Sand Level
+  link:   https://www.youtube.com/watch?v=gIdHTL18kTU
+  tags:   [gamedev]
