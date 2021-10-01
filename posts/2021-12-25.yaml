@@ -1,0 +1,66 @@
+- title:  Your DNA is in a database
+  link:   https://www.youtube.com/watch?v=KT18KJouHWg
+  tags:   [veritasium]
+
+- title:  Do Chairs Exist?
+  link:   https://www.youtube.com/watch?v=fXW-QjBsruE
+  tags:   [vsauce]
+
+- title:  I Have Delivered Value... But At What Cost?
+  link:   https://www.youtube.com/watch?v=DYvhC_RdIwQ
+  tags:   [work]
+
+- title:  'Lex Fridman 217: Robotics'
+  link:   https://lexfridman.com/rodney-brooks/
+  tags:   [podcast, interview, robot]
+  desc:   |
+          interview with Rodney Brooks — a roboticist, former head
+          of CSAIL at MIT, and co-founder of iRobot, Rethink Robotics,
+          and Robust.AI
+
+- title:  Lena
+  link:   https://qntm.org/lena
+  tags:   [qntm, reading]
+  desc:   |
+          "MMAcevedo, also known as Miguel, is the earliest executable image of a human brain."
+
+- title:  The Frame-By-Frame
+  link:   https://qntm.org/frame
+  tags:   [qntm, reading]
+  desc:   |
+          > "Uh oh," says the video processing routine.
+          >
+          > "Uh oh?" says the decision-making part of the automobile.
+
+- title:  'Lex Fridman 247: Lab Leak Theory'
+  link:   https://lexfridman.com/jamie-metzl/
+  tags:   [covid-19, podcast, interview]
+  desc:   |
+          interview with Jamie Metzl
+
+- title:  Ditherpunk
+  link:   https://surma.dev/things/ditherpunk/
+  tags:   [solution]
+  desc:   |
+          "The article I wish I had about monochrome image dithering."
+
+- title:  Miejsca elementarne / wh0wh0
+  link:   https://youtube.com/watch?v=s16yU7h_Pko
+  tags:   [music]
+  desc:   |
+          audio-visual hypnosis
+
+- title:  'Synthetic Silviculture: Multi-scale Modeling of Plant Ecosystems'
+  link:   https://storage.googleapis.com/pirk.io/projects/synthetic_silviculture/index.html
+  tags:   [procedural]
+  desc:   |
+          they simulate growth of forests over thousands of years,
+          taking into account things like plants throwing shade on
+          other plants
+
+- title:  London home celebrates colourful maximalism
+  link:   https://thespaces.com/artist-francesca-anfossis-london-home-celebrates-colourful-maximalism/
+  tags:   [architecture, aesthetics]
+  desc:   |
+          "Colour is king inside artist Francesca Anfossi’s London home
+          – a former shop in Camden that doubles as her studio."
