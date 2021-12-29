@@ -12,7 +12,7 @@
 
 - title:  'Lex Fridman 217: Robotics'
   link:   https://lexfridman.com/rodney-brooks/
-  tags:   [podcast, interview, robot]
+  tags:   [lex-fridman, podcast, interview, robot]
   desc:   |
           interview with Rodney Brooks — a roboticist, former head
           of CSAIL at MIT, and co-founder of iRobot, Rethink Robotics,
@@ -34,7 +34,7 @@
 
 - title:  'Lex Fridman 247: Lab Leak Theory'
   link:   https://lexfridman.com/jamie-metzl/
-  tags:   [covid-19, podcast, interview]
+  tags:   [lex-fridman, covid-19, podcast, interview]
   desc:   |
           interview with Jamie Metzl
 
