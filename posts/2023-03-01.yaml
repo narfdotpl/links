@@ -1,0 +1,15 @@
+- title:  'SE-0206: Hashable Enhancements'
+  link:   https://github.com/apple/swift-evolution/blob/main/proposals/0206-hashable-enhancements.md
+  tags:   [swift]
+
+- title:  'SE-0304: Structured concurrency'
+  link:   https://github.com/apple/swift-evolution/blob/main/proposals/0304-structured-concurrency.md
+  tags:   [swift]
+
+- title:  'SE-0258: Property Wrappers'
+  link:   https://github.com/apple/swift-evolution/blob/master/proposals/0258-property-wrappers.md
+  tags:   [swift]
+
+- title:  'SE-0289: Result builders'
+  link:   https://github.com/apple/swift-evolution/blob/main/proposals/0289-result-builders.md
+  tags:   [swift]
