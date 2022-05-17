@@ -55,7 +55,7 @@ def runserver():
 
     with lcd(APP_DIR) as local:
         local('python generator.py')
-        local('open http://localhost:5000/')
+        local('open http://localhost:8000/')
         local('python server.py')
 
 
