@@ -121,7 +121,7 @@ def render_and_write(filename, **kw):
 
 
 def strip_whitespace_from_links(html):
-    soup = BeautifulSoup(html)
+    soup = BeautifulSoup(html, features='html.parser')
 
     for link in soup.find_all('a'):
         link.string = link.string.strip()
