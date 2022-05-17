@@ -54,8 +54,8 @@ def runserver():
     'run locally'
 
     with lcd(APP_DIR) as local:
-        local('python generator.py')
-        local('open http://localhost:8000/')
+        local('python generator.py &')
+        local('f() { sleep 0.2; open http://localhost:8000; }; f &')
         local('python server.py')
 
 
