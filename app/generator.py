@@ -42,7 +42,7 @@ class Link(object):
         dct['title'] = improve_typography(dct['title'])
 
         self._dct = dct
-        self.tags = map(Tag, dct['tags'])
+        self.tags = list(map(Tag, dct['tags']))
 
         # automatically add "video" tag
         if 'video' not in dct['tags'] and \
@@ -63,7 +63,7 @@ class Post(object):
         self.next = '/%s' % next if next else None
         self.url = '/%s' % date
         self.path = join(BUILD_DIR, '%s.html' % date)
-        self.links = (Link(dct, self) for dct in yaml.load(open(src)))
+        self.links = (Link(dct, self) for dct in yaml.load(open(src), yaml.Loader))
 
 
 class Tag(object):
@@ -83,7 +83,7 @@ def get_posts():
                         reverse=True))
     names.append(ext)
 
-    for i in xrange(1, len(names) - 1):
+    for i in range(1, len(names) - 1):
         next, date, prev = [names[i + j][:-len(ext)] for j in [-1, 0, 1]]
         yield Post(date, prev, next, join(POSTS_DIR, names[i]))
 
@@ -126,7 +126,7 @@ def strip_whitespace_from_links(html):
     for link in soup.find_all('a'):
         link.string = link.string.strip()
 
-    return unicode(soup)
+    return str(soup)
 
 
 def mix(x, x_min, x_max, new_min, new_max):
@@ -166,8 +166,8 @@ def _main():
                         tag_f.write(render(link, tag))
 
     # prepare to create a tag cloud
-    min_count = min(tags_count.itervalues())
-    max_count = max(tags_count.itervalues())
+    min_count = min(tags_count.values())
+    max_count = max(tags_count.values())
     min_scale = 1.0
     max_scale = 3.0
     f = lambda n: min(200, n)
@@ -176,7 +176,7 @@ def _main():
     # render tag cloud
     render_and_write('tags.html', tags=[
         {'name': tag, 'scale': get_scale(count)} \
-        for tag, count in sorted(tags_count.iteritems())
+        for tag, count in sorted(tags_count.items())
     ])
 
     # render feed
