@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-from __future__ import division
 from collections import defaultdict
 from os import listdir, mkdir
 from os.path import dirname, exists, join, realpath
@@ -13,7 +12,7 @@ from markdown import markdown as render_markdown
 import typogrify.filters
 import yaml
 
-from common import open
+from app.common import open
 
 
 # set paths
