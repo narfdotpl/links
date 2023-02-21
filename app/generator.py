@@ -24,10 +24,14 @@ TEMPLATES_DIR = join(CURR_DIR, 'templates')
 
 # keep templates in memory
 templates = {}
-for name in ['link', 'post', 'tag', 'tags']:
+for name in ['link', 'note', 'post', 'tag', 'tags']:
     with open(join(TEMPLATES_DIR, '%s.html' % name)) as f:
         templates[name] = Template(f.read())
 
+
+class Note:
+    def __init__(self, dct):
+        self.html = improve_typography(render_markdown(dct['text']))
 
 class Link(object):
 
@@ -62,7 +66,13 @@ class Post(object):
         self.next = '/%s' % next if next else None
         self.url = '/%s' % date
         self.path = join(BUILD_DIR, '%s.html' % date)
-        self.links = (Link(dct, self) for dct in yaml.load(open(src), yaml.Loader))
+
+        self.items = []
+        for dct in yaml.load(open(src), yaml.Loader):
+            if dct.get('type') == 'note':
+                self.items.append(Note(dct))
+            else:
+                self.items.append(Link(dct, self))
 
 
 class Tag(object):
@@ -151,8 +161,13 @@ def _main():
         with open(post.path, 'w') as post_f:
             post_f.write(render(post))
 
-            for link in post.links:
-                post_f.write(render(link))
+            for item in post.items:
+                post_f.write(render(item))
+
+                if isinstance(item, Link):
+                    link = item
+                else:
+                    continue
 
                 for tag in link.tags[:-1]:
                     tags_count[tag.name] += 1
