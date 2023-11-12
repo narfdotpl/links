@@ -1,0 +1,82 @@
+- type:   note
+  text:   |
+          Here are some <a href="/tags/series">“TV” shows</a>
+          that I’ve enjoyed in recent years:
+
+- title:  Legion
+  link:   https://en.wikipedia.org/wiki/Legion_(TV_series)
+  tags:   [series]
+  desc:   |
+          mindblowing series by Noah Hawley
+
+- title:  Fargo
+  link:   https://en.wikipedia.org/wiki/Fargo_(TV_series)
+  tags:   [series]
+  desc:   |
+          crime series by Noah Hawley, each season is independent
+
+- title:  Arcane
+  link:   https://en.wikipedia.org/wiki/Arcane_(TV_series)
+  tags:   [game, series]
+  desc:   |
+          impeccably-animated League of Legends series on Netfilx
+
+- title:  Station Eleven
+  link:   https://en.wikipedia.org/wiki/Station_Eleven_(miniseries)
+  tags:   [series]
+  desc:   |
+          post-apocalyptic series on HBO
+
+- title:  The Leftovers
+  link:   https://en.wikipedia.org/wiki/The_Leftovers_(TV_series)
+  tags:   [series]
+  desc:   |
+          supernatural thriller series on HBO
+
+- title:  Watchmen
+  link:   https://en.wikipedia.org/wiki/Watchmen_(TV_series)
+  tags:   [series]
+  desc:   |
+          weird superhero drama series by the people who made The Leftovers,
+          on HBO
+
+- title:  Severance
+  link:   https://en.wikipedia.org/wiki/Severance_(TV_series)
+  tags:   [series]
+  desc:   |
+          slow (mmm...) psychological thriller series on Apple
+
+- title:  Ted Lasso
+  link:   https://en.wikipedia.org/wiki/Ted_Lasso
+  tags:   [series]
+  desc:   |
+          feel good commedy series, way better and deeper than the trailer,
+          on Apple
+
+- title:  Drops of God
+  link:   https://en.wikipedia.org/wiki/Drops_of_God#2023_multinational_TV_series
+  tags:   [series]
+  desc:   |
+          multi-lingual series based on a manga, on Apple
+
+- title:  Slow Horses
+  link:   https://en.wikipedia.org/wiki/Slow_Horses
+  tags:   [series]
+  desc:   |
+          spy thriller series with realistic/mediocre spies, on Apple
+
+- title:  Andor
+  link:   https://en.wikipedia.org/wiki/Andor_(TV_series)
+  tags:   [series]
+  desc:   |
+          probably the best Star Wars thing ever created, on Disney
+
+- title:  Poker Face
+  link:   https://en.wikipedia.org/wiki/Poker_Face_(TV_series)
+  tags:   [series]
+  desc:   |
+          case-of-the-week murder mystery series
+
+- type:   note
+  text:   |
+          *PS I keep track of the things I watch on <a href="https://www.filmweb.pl/user/narfdotpl#/votes/serial">Filmweb</a>*
