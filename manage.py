@@ -88,7 +88,7 @@ def publish():
 @task
 def visit():
     'visit links.narf.pl'
-    system('open http://links.narf.pl/')
+    system('open https://links.narf.pl/')
 
 
 if __name__ == '__main__':
