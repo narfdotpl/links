@@ -1,7 +1,7 @@
 links
 =====
 
-[links][] collected by [@narfdotpl][narf]
+[links][] collected by [narf][]
 
-  [links]:  http://links.narf.pl/
-  [narf]:   http://narf.pl/
+  [links]:  https://links.narf.pl/
+  [narf]:   https://narf.pl/
