@@ -45,8 +45,9 @@ def deploy():
     'update production with latest changes'
 
     logs_fetch()
-    system('git push --force-with-lease dokku HEAD:master')
+    system('git push --force origin HEAD:master')
     visit()
+    system('open https://dashboard.render.com')
 
 
 @task
@@ -63,9 +64,11 @@ def runserver():
 
 @task
 def logs_fetch():
+    # TODO: get logs from Render
+    pass
     # logs start at the last deployment
-    with lcd(LOGS_DIR) as local:
-        local("ssh dokku -t 'docker logs $(cat /home/dokku/links/CONTAINER.web.1)' | gzip > $(date +%Y-%m-%d_%H%M).txt.gz")
+    # with lcd(LOGS_DIR) as local:
+    #     local("ssh dokku -t 'docker logs $(cat /home/dokku/links/CONTAINER.web.1)' | gzip > $(date +%Y-%m-%d_%H%M).txt.gz")
 
 
 @task
