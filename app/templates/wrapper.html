@@ -43,24 +43,8 @@
             </div>
         </div>
 
-        {% if debug %}
-            <script src="/static/jquery.min.js"></script>
-        {% else %}
-            <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
-        {% endif %}
+        <script src="/static/jquery.min.js"></script>
         <script src="/static/app.js?1bf2c064"></script>
-
-        {% if not debug %}
-            <script>
-                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-                ga('create', 'UA-8752416-3', 'auto');
-                ga('send', 'pageview');
-            </script>
-        {% endif %}
-    <script src="//instant.page/1.1.0" type="module" integrity="sha384-EwBObn5QAxP8f09iemwAJljc+sU+eUXeL9vSBw1eNmVarwhKk2F9vBEpaN9rsrtp"></script>
+        <script src="//instant.page/1.1.0" type="module" integrity="sha384-EwBObn5QAxP8f09iemwAJljc+sU+eUXeL9vSBw1eNmVarwhKk2F9vBEpaN9rsrtp"></script>
     </body>
 </html>
