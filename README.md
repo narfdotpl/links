@@ -7,9 +7,19 @@ links
   [narf]:   https://narf.pl/
 
 
-### Deployment
+## Running locally
 
-This app runs on [Render](https://render.com).
+```
+brew install pyenv-virtualenv
+pyenv virtualenv links
+pyenv activate links
+pip install -r requirements.txt
+
+./manage.py runserver
+```
+
+
+## Running on [Render](https://render.com)
 
 #### build command
 
