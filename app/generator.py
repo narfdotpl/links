@@ -48,6 +48,7 @@ class Link(object):
             self.tags.append(Tag('video'))
 
         self.tags.append(Tag('_post', post))
+        self.post = post
 
     def __getattr__(self, name):
         return self._dct.get(name)
@@ -158,7 +159,13 @@ def _main():
                     links_by_tag_name[tag.name].append(link)
 
     for (tag_name, links) in links_by_tag_name.items():
-        render_and_write("tag.html", f'tags/{tag_name}.html', tag_name=tag_name, links=links)
+        years = {int(link.post.date.split('-')[0]) for link in links}
+        render_and_write("tag.html", f'tags/{tag_name}.html',
+            tag_name=tag_name,
+            links=links,
+            start_year=min(years),
+            end_year=max(years),
+        )
 
     # prepare to create a tag cloud
     tags_count = {tag: len(links) for (tag, links) in links_by_tag_name.items()}
