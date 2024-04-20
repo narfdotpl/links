@@ -7,7 +7,7 @@ from os.path import dirname, exists, join, realpath
 from shutil import rmtree
 
 from bs4 import BeautifulSoup
-from jinja2 import Template
+from jinja2 import Environment, PackageLoader
 from markdown import markdown as render_markdown
 import typogrify.filters
 import yaml
@@ -20,13 +20,8 @@ CURR_DIR = dirname(realpath(__file__))
 BUILD_DIR = join(CURR_DIR, 'build')
 POSTS_DIR = join(CURR_DIR, '..', 'posts')
 TAGS_DIR = join(BUILD_DIR, 'tags')
-TEMPLATES_DIR = join(CURR_DIR, 'templates')
 
-# keep templates in memory
-templates = {}
-for name in ['link', 'note', 'post', 'tag', 'tags']:
-    with open(join(TEMPLATES_DIR, '%s.html' % name)) as f:
-        templates[name] = Template(f.read())
+env = Environment(loader=PackageLoader("app"))
 
 
 class Note:
@@ -118,14 +113,12 @@ def render(a1, a2=None):
     return html
 
 
-def render_and_write(filename, **kw):
-    with open(join(TEMPLATES_DIR, filename)) as f:
-        template = Template(f.read())
-
+def render_and_write(filename, output_filename=None, **kw):
+    template = env.get_template(filename)
     html = template.render(kw)
     html = strip_whitespace_from_links(html)
 
-    with open(join(BUILD_DIR, filename), 'w') as f:
+    with open(join(BUILD_DIR, output_filename or filename), 'w') as f:
         f.write(html)
 
 
@@ -151,35 +144,24 @@ def _main():
     mkdir(TAGS_DIR)
 
     # prepare to count tag occurances
-    tags_count = defaultdict(int)
+    links_by_tag_name = defaultdict(list)
 
-    # render posts creating tag pages as you go by
-    dates = []
-    for post in get_posts():
-        dates.append(post.date)
+    posts = list(get_posts())
+    for post in posts:
+        render_and_write("post.html", post.path, post=post, current_tag_name='_post')
 
-        with open(post.path, 'w') as post_f:
-            post_f.write(render(post))
-
-            for item in post.items:
-                post_f.write(render(item))
-
-                if isinstance(item, Link):
-                    link = item
-                else:
-                    continue
-
+        # track tags
+        for item in post.items:
+            if isinstance(item, Link):
+                link = item
                 for tag in link.tags[:-1]:
-                    tags_count[tag.name] += 1
-                    is_new = not exists(tag.path)
+                    links_by_tag_name[tag.name].append(link)
 
-                    with open(tag.path, 'a') as tag_f:
-                        if is_new:
-                            tag_f.write(render(tag))
-
-                        tag_f.write(render(link, tag))
+    for (tag_name, links) in links_by_tag_name.items():
+        render_and_write("tag.html", f'tags/{tag_name}.html', tag_name=tag_name, links=links)
 
     # prepare to create a tag cloud
+    tags_count = {tag: len(links) for (tag, links) in links_by_tag_name.items()}
     min_count = min(tags_count.values())
     max_count = max(tags_count.values())
     min_scale = 1.0
@@ -194,7 +176,7 @@ def _main():
     ])
 
     # render feed
-    render_and_write('feed.xml', dates=dates)
+    render_and_write('feed.xml', dates=[p.date for p in posts])
 
 
 if __name__ == '__main__':

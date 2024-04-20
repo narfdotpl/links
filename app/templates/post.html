@@ -13,3 +13,15 @@
         {% endif %}
     </p>
 </header>
+
+{% for item in post.items %}
+    {% if item.__class__.__name__ == 'Note' %}
+        {% with note=item %}
+            {% include 'note.html' %}
+        {% endwith %}
+    {% else %}
+        {% with link=item %}
+            {% include 'link.html' %}
+        {% endwith %}
+    {% endif %}
+{% endfor %}

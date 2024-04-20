@@ -1,3 +1,7 @@
 <header class="centered">
-    <h1>tags: {{ tag.name }}</h1>
+    <h1>tags: {{ tag_name }}</h1>
 </header>
+
+{% for link in links %}
+    {% include 'link.html' %}
+{% endfor %}

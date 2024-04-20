@@ -58,7 +58,7 @@ def runserver():
 
     with lcd(CURR_DIR) as local:
         local(prefix + 'python app/generator.py &')
-        local('f() { sleep 0.2; open http://localhost:8000; }; f &')
+        local('f() { sleep 1.2; open http://localhost:8000; }; f &')
         local(prefix + 'python app/server.py')
 
 
