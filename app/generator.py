@@ -162,6 +162,7 @@ def _main():
         years = {int(link.post.date.split('-')[0]) for link in links}
         render_and_write("tag.html", f'tags/{tag_name}.html',
             tag_name=tag_name,
+            current_tag_name=tag_name,
             links=links,
             start_year=min(years),
             end_year=max(years),
