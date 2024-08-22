@@ -146,6 +146,8 @@ def _main():
 
     # prepare to count tag occurances
     links_by_tag_name = defaultdict(list)
+    total_link_count = 0
+    total_years = set()
 
     posts = list(get_posts())
     for post in posts:
@@ -155,11 +157,13 @@ def _main():
         for item in post.items:
             if isinstance(item, Link):
                 link = item
+                total_link_count += 1
                 for tag in link.tags[:-1]:
                     links_by_tag_name[tag.name].append(link)
 
     for (tag_name, links) in links_by_tag_name.items():
         years = {int(link.post.date.split('-')[0]) for link in links}
+        total_years |= years
         render_and_write("tag.html", f'tags/{tag_name}.html',
             tag_name=tag_name,
             current_tag_name=tag_name,
@@ -178,10 +182,15 @@ def _main():
     get_scale = lambda count: '%.2f' % mix(f(count), f(min_count), f(max_count), min_scale, max_scale)
 
     # render tag cloud
-    render_and_write('tags.html', tags=[
-        {'name': tag, 'scale': get_scale(count)} \
-        for tag, count in sorted(tags_count.items())
-    ])
+    render_and_write('tags.html',
+        link_count=total_link_count,
+        start_year=min(total_years),
+        end_year=max(total_years),
+        tags=[
+            {'name': tag, 'scale': get_scale(count)} \
+            for tag, count in sorted(tags_count.items())
+        ]
+    )
 
     # render feed
     render_and_write('feed.xml', dates=[p.date for p in posts])
