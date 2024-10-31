@@ -13,7 +13,7 @@ links
 brew install pyenv-virtualenv
 pyenv virtualenv links
 pyenv activate links
-pip install -r requirements.txt
+pip install -r requirements-local.txt
 
 ./manage.py runserver
 ```
@@ -21,14 +21,20 @@ pip install -r requirements.txt
 
 ## Running on [Render](https://render.com)
 
+this is a static site
+
 #### build command
 
     pip install -r requirements.txt && PYTHONPATH=.:$PYTHONPATH python app/generator.py
 
-#### start command
+#### publish directory
 
-    gunicorn app.server:app --workers=2
+    app/build
 
 #### Python version
 
 specified using `PYTHON_VERSION` environment variable
+
+#### redirects
+
+- `/feed` -> `/feed.xml`

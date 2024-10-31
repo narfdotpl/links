@@ -2,7 +2,7 @@
 # encoding: utf-8
 
 from collections import defaultdict
-from os import listdir, mkdir
+from os import listdir, mkdir, symlink
 from os.path import dirname, exists, join, realpath
 from shutil import rmtree
 
@@ -17,11 +17,13 @@ from app.common import open
 
 # set paths
 CURR_DIR = dirname(realpath(__file__))
+STATIC_DIR = join(CURR_DIR, 'static')
 BUILD_DIR = join(CURR_DIR, 'build')
 POSTS_DIR = join(CURR_DIR, '..', 'posts')
 TAGS_DIR = join(BUILD_DIR, 'tags')
 
 env = Environment(loader=PackageLoader("app"))
+wrapper_template = env.get_template('wrapper.html')
 
 
 class Note:
@@ -114,13 +116,19 @@ def render(a1, a2=None):
     return html
 
 
-def render_and_write(filename, output_filename=None, **kw):
+def render_and_write_html(filename, output_filename=None, **kw):
     template = env.get_template(filename)
     html = template.render(kw)
     html = strip_whitespace_from_links(html)
+    html = wrapper_template.render(inner=html)
 
     with open(join(BUILD_DIR, output_filename or filename), 'w') as f:
         f.write(html)
+
+
+def render_and_write(filename, **kw):
+    with open(join(BUILD_DIR, filename), 'w') as f:
+        f.write(env.get_template(filename).render(kw))
 
 
 def strip_whitespace_from_links(html):
@@ -144,14 +152,19 @@ def _main():
     mkdir(BUILD_DIR)
     mkdir(TAGS_DIR)
 
+    # symlink static files
+    symlink(STATIC_DIR, join(BUILD_DIR, 'static'))
+
     # prepare to count tag occurances
     links_by_tag_name = defaultdict(list)
     total_link_count = 0
     total_years = set()
 
     posts = list(get_posts())
+    render_and_write('index.html', latest=posts[0].date)
+
     for post in posts:
-        render_and_write("post.html", post.path, post=post, current_tag_name='_post')
+        render_and_write_html("post.html", post.path, post=post, current_tag_name='_post')
 
         # track tags
         for item in post.items:
@@ -164,7 +177,7 @@ def _main():
     for (tag_name, links) in links_by_tag_name.items():
         years = {int(link.post.date.split('-')[0]) for link in links}
         total_years |= years
-        render_and_write("tag.html", f'tags/{tag_name}.html',
+        render_and_write_html("tag.html", f'tags/{tag_name}.html',
             tag_name=tag_name,
             current_tag_name=tag_name,
             links=links,
@@ -182,7 +195,7 @@ def _main():
     get_scale = lambda count: '%.2f' % mix(f(count), f(min_count), f(max_count), min_scale, max_scale)
 
     # render tag cloud
-    render_and_write('tags.html',
+    render_and_write_html('tags.html',
         link_count=total_link_count,
         start_year=min(total_years),
         end_year=max(total_years),
