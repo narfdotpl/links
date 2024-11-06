@@ -7,14 +7,14 @@
 
 - title:  The Assist
   link:   https://qntm.org/assist
-  tags:   [qntm, work]
+  tags:   [qntm, work, ai]
   desc:   |
           qntm eloquently describes more or less my feelings after trying GitHub Copilot:
           AI replaces coding with code review and I don’t like it
 
 - title:  React, Electron, and LLMs have a common purpose
   link:   https://www.baldurbjarnason.com/2024/react-electron-llms-labour-arbitrage/
-  tags:   [work]
+  tags:   [work, ai]
   desc:   |
           "the labour arbitrage theory of dev tool popularity"
 
